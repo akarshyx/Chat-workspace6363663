@@ -1,0 +1,421 @@
+{
+  "timestamp": 1792881711.4545074,
+  "export_date": "Sat Oct 24 22:41:51 2026",
+  "total_users": 19,
+  "user_balances": {
+    "8598790977": 511.98,
+    "8639404236": 1.60714287,
+    "1196029909": 0.17857143,
+    "8866172837": 197.38102324,
+    "8619212375": 0.0,
+    "8750866470": 0.0,
+    "8851859565": 0.0,
+    "8670909576": 0.0,
+    "7830105011": 0.0,
+    "91144900": 10.0,
+    "8522381582": 0.0,
+    "8815653561": 70.5,
+    "8628599958": 0.0,
+    "8788040313": 0.0,
+    "6016340148": 0.0,
+    "6155141111": 0.0,
+    "8919753146": 0.0,
+    "8843548831": 0.0,
+    "1272891832": 134.0
+  },
+  "user_profiles": {
+    "8598790977": {
+      "joined_at": 1788104013.483857,
+      "username": "arshxy",
+      "first_name": "#1",
+      "currency": "USD",
+      "lt_games": 16,
+      "lt_wins": 1,
+      "lt_won": 96.0,
+      "lt_wagered": 370.0,
+      "lt_first_game_ts": 1788104270,
+      "lt_last_game_ts": 1792497101
+    },
+    "8750866470": {
+      "joined_at": 1792490944.2122183,
+      "username": "Pabloescobxr",
+      "first_name": "Pablo Escobar",
+      "currency": "USD"
+    },
+    "8866172837": {
+      "lt_games": 1,
+      "lt_wins": 0,
+      "lt_won": 0.0,
+      "lt_wagered": 15.0,
+      "lt_first_game_ts": 1792588126,
+      "lt_last_game_ts": 1792588126
+    },
+    "91144900": {
+      "first_name": "\ua731\u1d21\u039b\u0262\u0262\u028f\u2122",
+      "username": "",
+      "joined": 1792598214,
+      "joined_at": 1792650797.350849,
+      "currency": "USD"
+    },
+    "8522381582": {
+      "joined_at": 1792625293.448979,
+      "username": "ueuriduu",
+      "first_name": ":)",
+      "currency": "USD"
+    },
+    "8815653561": {
+      "joined_at": 1792625334.947487,
+      "username": "",
+      "first_name": "KING",
+      "currency": "USD",
+      "lt_games": 15,
+      "lt_wins": 6,
+      "lt_won": 104.81,
+      "lt_wagered": 88.90919118,
+      "lt_first_game_ts": 1792626498,
+      "lt_last_game_ts": 1792848730
+    },
+    "8788040313": {
+      "joined_at": 1792649519.3792913,
+      "username": "Wingzxda",
+      "first_name": "Wingz",
+      "currency": "USD"
+    },
+    "6016340148": {
+      "joined_at": 1792651005.690803,
+      "username": "jewlite",
+      "first_name": "MARSHMELLO\ud83c\udf67 @raika",
+      "currency": "USD"
+    },
+    "6155141111": {
+      "joined_at": 1792651027.95985,
+      "username": "Anexfw",
+      "first_name": "\ud835\ude3c\ud835\ude63\ud835\ude5a\ud835\ude6d",
+      "currency": "USD"
+    },
+    "8919753146": {
+      "joined_at": 1792651571.3947778,
+      "username": "",
+      "first_name": "Micli",
+      "currency": "USD"
+    },
+    "8843548831": {
+      "joined_at": 1792667727.9782398,
+      "username": "",
+      "first_name": "Alpha",
+      "currency": "USD"
+    }
+  },
+  "user_levels": {},
+  "user_wagering_totals": {
+    "8598790977": 370.0,
+    "8866172837": 15.0,
+    "8815653561": 41.59919118
+  },
+  "user_match_history": {
+    "8598790977": [
+      {
+        "timestamp": 1788104270,
+        "id": "70623",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "medium_1_of_6",
+        "winnings": 0.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788104788,
+        "id": "88760",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "easy_3_of_10",
+        "winnings": 22.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788107717,
+        "id": "17154",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "classic_3_of_10",
+        "winnings": 0.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788108078,
+        "id": "78527",
+        "game": "keno",
+        "bet": 10.0,
+        "result": "medium_3_of_10",
+        "winnings": 0.0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1788108347,
+        "id": "47300",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "medium_2_of_10",
+        "winnings": 0.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788109506,
+        "id": "06768",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "medium_2_of_10",
+        "winnings": 0.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788110085,
+        "id": "85031",
+        "game": "keno",
+        "bet": 10.0,
+        "result": "classic_3_of_10",
+        "winnings": 0.0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1788111761,
+        "id": "61329",
+        "game": "keno",
+        "bet": 20.0,
+        "result": "medium_3_of_10",
+        "winnings": 0.0,
+        "profit": -20.0
+      },
+      {
+        "timestamp": 1788128339,
+        "id": "39321",
+        "game": "dice",
+        "bet": 50.0,
+        "result": "win",
+        "winnings": 96.0,
+        "profit": 46.0
+      },
+      {
+        "timestamp": 1788128369,
+        "id": "69629",
+        "game": "dice",
+        "bet": 50.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -50.0
+      },
+      {
+        "timestamp": 1788128409,
+        "id": "09977",
+        "game": "keno",
+        "bet": 30.0,
+        "result": "5_of_10",
+        "winnings": 84.0,
+        "profit": -30.0
+      },
+      {
+        "timestamp": 1788128433,
+        "id": "33741",
+        "game": "keno",
+        "bet": 30.0,
+        "result": "2_of_10",
+        "winnings": 0.0,
+        "profit": -30.0
+      },
+      {
+        "timestamp": 1788128504,
+        "id": "04412",
+        "game": "pump",
+        "bet": 10.0,
+        "result": "burst_1.48",
+        "winnings": 0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1788128520,
+        "id": "20461",
+        "game": "pump",
+        "bet": 10.0,
+        "result": "burst_1.28",
+        "winnings": 0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1788132718,
+        "id": "18696",
+        "game": "pump",
+        "bet": 10.0,
+        "result": "burst_1.28",
+        "winnings": 0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1792497101,
+        "id": "01236",
+        "game": "dice",
+        "bet": 40.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -40.0
+      }
+    ],
+    "8866172837": [
+      {
+        "timestamp": 1792588126,
+        "id": "26978",
+        "game": "dice",
+        "bet": 15.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -15.0
+      }
+    ],
+    "8815653561": [
+      {
+        "timestamp": 1792626498,
+        "id": "98170",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792626616,
+        "id": "16887",
+        "game": "dice",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792626717,
+        "id": "17255",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792627438,
+        "id": "38538",
+        "game": "cashout",
+        "bet": 3.0,
+        "result": "cashout",
+        "winnings": 1.9,
+        "profit": -3.0
+      },
+      {
+        "timestamp": 1792627480,
+        "id": "80019",
+        "game": "cashout",
+        "bet": 2.0,
+        "result": "cashout",
+        "winnings": 0.2,
+        "profit": -2.0
+      },
+      {
+        "timestamp": 1792627769,
+        "id": "69504",
+        "game": "dice",
+        "bet": 11.09919118,
+        "result": "win",
+        "winnings": 21.31,
+        "profit": 10.210808819999999
+      },
+      {
+        "timestamp": 1792847166,
+        "id": "66237",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "win",
+        "winnings": 3.0,
+        "profit": 2.0
+      },
+      {
+        "timestamp": 1792847210,
+        "id": "10986",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "win",
+        "winnings": 2.0,
+        "profit": 1.0
+      },
+      {
+        "timestamp": 1792847254,
+        "id": "54219",
+        "game": "roulette",
+        "bet": 2.0,
+        "result": "win",
+        "winnings": 4.0,
+        "profit": 2.0
+      },
+      {
+        "timestamp": 1792847664,
+        "id": "64662",
+        "game": "roulette",
+        "bet": 2.0,
+        "result": "win",
+        "winnings": 4.0,
+        "profit": 2.0
+      },
+      {
+        "timestamp": 1792847799,
+        "id": "99163",
+        "game": "roulette",
+        "bet": 28.31,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -28.31
+      },
+      {
+        "timestamp": 1792848378,
+        "id": "78627",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792848698,
+        "id": "98881",
+        "game": "roulette",
+        "bet": 10.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -10.0
+      },
+      {
+        "timestamp": 1792848714,
+        "id": "14359",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792848730,
+        "id": "30707",
+        "game": "roulette",
+        "bet": 23.5,
+        "result": "win",
+        "winnings": 70.5,
+        "profit": 47.0
+      }
+    ]
+  },
+  "referral_data": {},
+  "referral_earnings": {},
+  "user_raffle_tickets": {},
+  "pending_deposits": {},
+  "pending_withdrawals": {},
+  "active_games": {},
+  "hilo_games": {},
+  "crypto_house_balances": {
+    "USDT": 1603.8643110657138
+  }
+}
