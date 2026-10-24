@@ -1,0 +1,2339 @@
+{
+  "current": {
+    "user_balances": {
+      "8598790977": 511.98,
+      "8639404236": 1.60714287,
+      "1196029909": 0.17857143,
+      "8866172837": 197.38102324,
+      "8619212375": 0.0,
+      "8750866470": 0.0,
+      "8851859565": 0.0,
+      "8670909576": 0.0,
+      "7830105011": 0.0,
+      "91144900": 10.0,
+      "1": 0.0
+    },
+    "user_coins": {},
+    "user_coin_last_roll": {},
+    "user_wallet_mode": {
+      "8598790977": "real",
+      "8619212375": "real",
+      "8851859565": "real"
+    },
+    "player_data": {
+      "8598790977": {
+        "deposited": true,
+        "total_deposited": 666.0,
+        "wager_requirement": 0.0
+      },
+      "8639404236": {
+        "deposited": true,
+        "total_deposited": 1.60714287,
+        "wager_requirement": 15.0
+      },
+      "1196029909": {
+        "deposited": true,
+        "total_deposited": 0.17857143,
+        "wager_requirement": 15.0
+      },
+      "8866172837": {
+        "deposited": true,
+        "total_deposited": 212.38102324,
+        "wager_requirement": 15.0
+      }
+    },
+    "casino_balance_usd": 1592.1667375257139,
+    "user_currency_preferences": {},
+    "deposit_counter": 1,
+    "withdrawal_counter": 1,
+    "owner_id": 8598790977,
+    "min_bet": 1.0,
+    "min_deposit": 1.0,
+    "min_withdrawal": 10.0,
+    "user_states": {
+      "8851859565": "slot_emoji_waiting_bet",
+      "8598790977": "none"
+    },
+    "pending_deposits": {},
+    "pending_withdrawals": {},
+    "pending_owner_payments": {},
+    "active_games": {},
+    "keno_sessions": {
+      "e26fe13f7570": {
+        "game": "keno",
+        "session_id": "e26fe13f7570",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1952,
+        "mode": "easy",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          2,
+          3,
+          10,
+          11,
+          13,
+          18,
+          19,
+          26,
+          27,
+          28
+        ],
+        "draw_numbers": [
+          22,
+          8,
+          25,
+          13,
+          19,
+          4,
+          10,
+          20,
+          35,
+          40
+        ],
+        "revealed_numbers": [
+          22,
+          8,
+          25,
+          13,
+          19,
+          4,
+          10,
+          20,
+          35,
+          40
+        ],
+        "hit_numbers": [
+          13,
+          19,
+          10
+        ],
+        "current_multiplier": 1.1,
+        "potential_win": 22.0,
+        "final_payout": 22.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": true,
+        "created_at": 1788104333.9681923,
+        "started_at": 1788104776.9743748,
+        "finished_at": 1788104788.7548947
+      },
+      "dbca7bf86d7e": {
+        "game": "keno",
+        "session_id": "dbca7bf86d7e",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1968,
+        "mode": "classic",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          3,
+          9,
+          10,
+          17,
+          18,
+          19,
+          25,
+          26,
+          27,
+          34
+        ],
+        "draw_numbers": [
+          23,
+          27,
+          2,
+          26,
+          29,
+          30,
+          5,
+          33,
+          14,
+          10
+        ],
+        "revealed_numbers": [
+          23,
+          27,
+          2,
+          26,
+          29,
+          30,
+          5,
+          33,
+          14,
+          10
+        ],
+        "hit_numbers": [
+          27,
+          26,
+          10
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788107649.8143845,
+        "started_at": 1788107708.0579886,
+        "finished_at": 1788107717.1481993,
+        "result_message_id": 1968
+      },
+      "3e6bcd7dc6e3": {
+        "game": "keno",
+        "session_id": "3e6bcd7dc6e3",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1974,
+        "mode": "medium",
+        "bet_amount": 10.0,
+        "selected_numbers": [
+          2,
+          3,
+          9,
+          12,
+          18,
+          19,
+          25,
+          27,
+          34,
+          35
+        ],
+        "draw_numbers": [
+          36,
+          27,
+          21,
+          34,
+          9,
+          13,
+          11,
+          7,
+          31,
+          5
+        ],
+        "revealed_numbers": [
+          36,
+          27,
+          21,
+          34,
+          9,
+          13,
+          11,
+          7,
+          31,
+          5
+        ],
+        "hit_numbers": [
+          27,
+          34,
+          9
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788108031.5637307,
+        "started_at": 1788108069.5279367,
+        "finished_at": 1788108078.5198987
+      },
+      "92e3383de0a3": {
+        "game": "keno",
+        "session_id": "92e3383de0a3",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1976,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          1,
+          5,
+          7,
+          10,
+          21,
+          22,
+          29,
+          30,
+          31,
+          40
+        ],
+        "draw_numbers": [
+          28,
+          19,
+          32,
+          27,
+          31,
+          8,
+          17,
+          40,
+          15,
+          23
+        ],
+        "revealed_numbers": [
+          28,
+          19,
+          32,
+          27,
+          31,
+          8,
+          17,
+          40,
+          15,
+          23
+        ],
+        "hit_numbers": [
+          31,
+          40
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788108324.8016691,
+        "started_at": 1788108338.2829297,
+        "finished_at": 1788108347.2926488
+      },
+      "5ccc3dd5a490": {
+        "game": "keno",
+        "session_id": "5ccc3dd5a490",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1981,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          7,
+          8,
+          13,
+          14,
+          20,
+          22,
+          30,
+          32,
+          33,
+          40
+        ],
+        "draw_numbers": [
+          20,
+          6,
+          10,
+          34,
+          30,
+          25,
+          39,
+          11,
+          31,
+          36
+        ],
+        "revealed_numbers": [
+          20,
+          6,
+          10,
+          34,
+          30,
+          25,
+          39,
+          11,
+          31,
+          36
+        ],
+        "hit_numbers": [
+          20,
+          30
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788109481.04815,
+        "started_at": 1788109497.6781847,
+        "finished_at": 1788109506.7583876
+      },
+      "09ab4b410fb8": {
+        "game": "keno",
+        "session_id": "09ab4b410fb8",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1983,
+        "mode": "classic",
+        "bet_amount": 10.0,
+        "selected_numbers": [
+          4,
+          8,
+          13,
+          14,
+          16,
+          20,
+          24,
+          31,
+          33,
+          39
+        ],
+        "draw_numbers": [
+          34,
+          11,
+          38,
+          32,
+          24,
+          16,
+          35,
+          27,
+          4,
+          22
+        ],
+        "revealed_numbers": [
+          34,
+          11,
+          38,
+          32,
+          24,
+          16,
+          35,
+          27,
+          4,
+          22
+        ],
+        "hit_numbers": [
+          24,
+          16,
+          4
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788110065.231984,
+        "started_at": 1788110073.9225616,
+        "finished_at": 1788110085.0240245
+      },
+      "b74d3f30690a": {
+        "game": "keno",
+        "session_id": "b74d3f30690a",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1987,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          2,
+          8,
+          10,
+          14,
+          18,
+          20,
+          22,
+          26,
+          29,
+          40
+        ],
+        "draw_numbers": [
+          2,
+          34,
+          25,
+          16,
+          6,
+          17,
+          30,
+          20,
+          19,
+          22
+        ],
+        "revealed_numbers": [
+          2,
+          34,
+          25,
+          16,
+          6,
+          17,
+          30,
+          20,
+          19,
+          22
+        ],
+        "hit_numbers": [
+          2,
+          20,
+          22
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788111742.8983016,
+        "started_at": 1788111749.7515867,
+        "finished_at": 1788111761.3209872
+      },
+      "76ea50bb2954": {
+        "game": "keno",
+        "session_id": "76ea50bb2954",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 2145,
+        "bet_amount": 30.0,
+        "selected_numbers": [
+          2,
+          8,
+          13,
+          17,
+          18,
+          25,
+          26,
+          30,
+          33,
+          39
+        ],
+        "draw_numbers": [
+          4,
+          24,
+          28,
+          9,
+          7,
+          17,
+          14,
+          15,
+          29,
+          33
+        ],
+        "revealed_numbers": [
+          4,
+          24,
+          28,
+          9,
+          7,
+          17,
+          14,
+          15,
+          29,
+          33
+        ],
+        "hit_numbers": [
+          17,
+          33
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788128415.7200089,
+        "started_at": 1788128422.5367415,
+        "finished_at": 1788128433.7352955
+      }
+    },
+    "hilo_games": {},
+    "user_levels": {},
+    "user_boost_status": {},
+    "user_profiles": {
+      "8598790977": {
+        "joined_at": 1788104013.483857,
+        "username": "arshxy",
+        "first_name": "#1",
+        "currency": "USD",
+        "lt_games": 16,
+        "lt_wins": 1,
+        "lt_won": 96.0,
+        "lt_wagered": 370.0,
+        "lt_first_game_ts": 1788104270,
+        "lt_last_game_ts": 1792497101
+      },
+      "8750866470": {
+        "joined_at": 1792490944.2122183,
+        "username": "Pabloescobxr",
+        "first_name": "Pablo Escobar",
+        "currency": "USD"
+      },
+      "8866172837": {
+        "lt_games": 1,
+        "lt_wins": 0,
+        "lt_won": 0.0,
+        "lt_wagered": 15.0,
+        "lt_first_game_ts": 1792588126,
+        "lt_last_game_ts": 1792588126
+      },
+      "91144900": {
+        "first_name": "\ua731\u1d21\u039b\u0262\u0262\u028f\u2122",
+        "username": "",
+        "joined": 1792598214
+      }
+    },
+    "user_gift_profiles": {},
+    "processed_telegram_gifts": [
+      "regular:5170144170496491616:8639404236:2026-09-19T17:08:02+00:00",
+      "regular:5170145012310081615:1196029909:2026-09-01T11:04:31+00:00",
+      "regular:5170233102089322756:8639404236:2026-09-27T18:11:52+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-27T18:11:51+00:00",
+      "regular:5170250947678437525:8639404236:2026-09-27T18:11:49+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-19T17:08:05+00:00",
+      "unique:unknown::2026-08-13T16:27:32+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-19T17:08:04+00:00"
+    ],
+    "unattributed_telegram_gifts": {
+      "unique:unknown::2026-09-16T16:59:36+00:00": {
+        "gift_id": "Telegram Gift",
+        "type": "unique",
+        "stars": 0,
+        "usd": 0.0,
+        "sender_id": "",
+        "sender_username": "",
+        "send_date": "2026-09-16T16:59:36+00:00"
+      }
+    },
+    "gift_tracking_initialized": true,
+    "game_history": {},
+    "referral_data": {},
+    "referral_earnings": {},
+    "pending_referral_commissions": {},
+    "referral_wager_earnings": {},
+    "referral_deposit_earnings": {},
+    "referral_daily_earnings": {},
+    "referral_top_referred": {},
+    "referral_codes": {},
+    "chat_owner_groups": {
+      "-1004392540680": {
+        "owner_id": "91144900",
+        "title": "M\u1d1cs\u026a\u1d04 L\u1d0f\u0262\u0262\u1d07\u0280",
+        "username": "",
+        "registered_at": 1792598138.555645
+      }
+    },
+    "pending_challenges": {},
+    "active_pvp_games": {},
+    "user_wagering_totals": {
+      "8598790977": 370.0,
+      "8866172837": 15.0
+    },
+    "user_streak_data": {
+      "8598790977": {
+        "streak": 0,
+        "last_checkin": "2026-08-30",
+        "today_wagered": 40.0,
+        "wager_date": "2026-10-20"
+      },
+      "8866172837": {
+        "streak": 0,
+        "last_checkin": "",
+        "today_wagered": 15.0,
+        "wager_date": "2026-10-21"
+      }
+    },
+    "user_level_bonus_claimed": {
+      "8598790977": 0,
+      "8866172837": 0
+    },
+    "user_losses_rakeback": {
+      "8598790977": 0.027000000000000003,
+      "8866172837": 0.0015
+    },
+    "user_last_rakeback_claim": {},
+    "user_raffle_tickets": {},
+    "user_match_history": {
+      "8598790977": [
+        {
+          "timestamp": 1788104270,
+          "id": "70623",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_1_of_6",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788104788,
+          "id": "88760",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "easy_3_of_10",
+          "winnings": 22.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788107717,
+          "id": "17154",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "classic_3_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788108078,
+          "id": "78527",
+          "game": "keno",
+          "bet": 10.0,
+          "result": "medium_3_of_10",
+          "winnings": 0.0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788108347,
+          "id": "47300",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_2_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788109506,
+          "id": "06768",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_2_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788110085,
+          "id": "85031",
+          "game": "keno",
+          "bet": 10.0,
+          "result": "classic_3_of_10",
+          "winnings": 0.0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788111761,
+          "id": "61329",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_3_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788128339,
+          "id": "39321",
+          "game": "dice",
+          "bet": 50.0,
+          "result": "win",
+          "winnings": 96.0,
+          "profit": 46.0
+        },
+        {
+          "timestamp": 1788128369,
+          "id": "69629",
+          "game": "dice",
+          "bet": 50.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -50.0
+        },
+        {
+          "timestamp": 1788128409,
+          "id": "09977",
+          "game": "keno",
+          "bet": 30.0,
+          "result": "5_of_10",
+          "winnings": 84.0,
+          "profit": -30.0
+        },
+        {
+          "timestamp": 1788128433,
+          "id": "33741",
+          "game": "keno",
+          "bet": 30.0,
+          "result": "2_of_10",
+          "winnings": 0.0,
+          "profit": -30.0
+        },
+        {
+          "timestamp": 1788128504,
+          "id": "04412",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.48",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788128520,
+          "id": "20461",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.28",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788132718,
+          "id": "18696",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.28",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1792497101,
+          "id": "01236",
+          "game": "dice",
+          "bet": 40.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -40.0
+        }
+      ],
+      "8866172837": [
+        {
+          "timestamp": 1792588126,
+          "id": "26978",
+          "game": "dice",
+          "bet": 15.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -15.0
+        }
+      ]
+    },
+    "user_wagering_requirements": {
+      "8598790977": 0.0,
+      "8639404236": 15.0,
+      "1196029909": 15.0,
+      "8866172837": 15.0
+    },
+    "user_bonus_balances": {},
+    "user_crypto_bonus_claims": {
+      "8598790977": {
+        "claimed_at": 1788128449.2396388,
+        "deposit_total": 666.0,
+        "bonus_amount": 19.98,
+        "rate": 0.03
+      }
+    },
+    "bonus_codes": {},
+    "manager_ids": [],
+    "user_claimed_codes": {},
+    "user_bonus_wager_data": {},
+    "user_pending_bonus_claims": {},
+    "user_deposit_totals": {
+      "8598790977": 666.0,
+      "8639404236": 1.6071428571428572,
+      "1196029909": 0.17857142857142855,
+      "8866172837": 212.38102324
+    },
+    "user_deposit_history": {
+      "8598790977": [
+        {
+          "ts": 1788104222.3733292,
+          "amount": 666.0,
+          "currency": "ADMIN",
+          "source": "admin_botdepo",
+          "txid": "bd4219"
+        }
+      ],
+      "8639404236": [
+        {
+          "ts": 1792459234.3019135,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459239.4415245,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459244.634204,
+          "amount": 0.2976190476190476,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459249.957138,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459255.0684795,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459260.1117194,
+          "amount": 0.5952380952380952,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        }
+      ],
+      "1196029909": [
+        {
+          "ts": 1792459265.3322349,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        }
+      ],
+      "8866172837": [
+        {
+          "ts": 1792460802.5314,
+          "amount": 12.38102324,
+          "currency": "SOL",
+          "source": "nowpayments_exact_poll"
+        },
+        {
+          "ts": 1792461634.9385011,
+          "amount": 200.0,
+          "currency": "ADMIN",
+          "source": "admin_botdepo",
+          "txid": "bd61632"
+        }
+      ]
+    },
+    "user_last_deposit_ts": {
+      "8598790977": 1788104222.3733878,
+      "8639404236": 1792459260.116384,
+      "1196029909": 1792459265.336221,
+      "8866172837": 1792461634.9385219
+    },
+    "user_tip_received": {
+      "91144900": true
+    },
+    "user_client_seeds": {},
+    "user_transfer_codes": {},
+    "_pending_tips": {},
+    "house_balance": 1592.1667375257139,
+    "crypto_house_balances": {
+      "USDT": 1592.1667375257139
+    },
+    "user_crypto_deposits": {},
+    "user_crypto_addresses": {},
+    "pending_crypto_deposits": {},
+    "pending_crypto_withdrawals": {},
+    "nowpayments_pending_deposits": {
+      "4918050489": {
+        "user_id": "8598790977",
+        "username": "arshxy",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8598790977_1792459586",
+        "payment_id": "4918050489",
+        "pay_address": "65bygvYNdvS6poGKzARM9pFAfiCsWmkG5QLNaZuyYBc1",
+        "expected_coin_amount": 0.09590986,
+        "amount_usd": 10.0,
+        "created_at": 1792459587.0,
+        "expires_at": 1792463187.0,
+        "next_poll_at": 1792461770.5162294,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792459590.6615944,
+        "expired_at": 1792489875.2109897
+      },
+      "5254732462": {
+        "user_id": "8866172837",
+        "username": "",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8866172837_1792460359",
+        "payment_id": "5254732462",
+        "pay_address": "76Cnnsxvv2Z4UE55NmnbLUasb9PxdhFdUrDNRFTvBSbz",
+        "expected_coin_amount": 0.09555836,
+        "amount_usd": 10.0,
+        "created_at": 1792460359.0,
+        "expires_at": 1792463959.0,
+        "next_poll_at": 1792461770.5162294,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792460365.2148252,
+        "expired_at": 1792489875.2109897
+      },
+      "5096667756": {
+        "user_id": "8866172837",
+        "username": "",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8866172837_1792460361",
+        "payment_id": "5096667756",
+        "pay_address": "CkwGyxs5bCyoDWYW2PFbpy5JXyLRRYsS3FbhbSyK2EAQ",
+        "expected_coin_amount": 0.09555836,
+        "amount_usd": 10.0,
+        "created_at": 1792460361.0,
+        "expires_at": 1792463961.0,
+        "next_poll_at": 1792460815.2129648,
+        "poll_failures": 0,
+        "status": "credited",
+        "state": "CREDITED",
+        "last_error": "",
+        "last_status": "finished",
+        "last_status_at": 1792460800.2129648,
+        "detected_at": 1792460800.2129648,
+        "processing_currency": "SOL",
+        "detected_coin_amount": 0.11842203,
+        "detected_txid": "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE",
+        "processing_notified_at": 1792460802.5280714,
+        "credited_at": 1792460804.1061234,
+        "confirmation_notification": {
+          "usd_amount": 12.38102324,
+          "fee_amount": 0.0,
+          "pay_currency": "SOL",
+          "coin_amount": 0.11842203,
+          "txid": "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE",
+          "network": "sol",
+          "username": "",
+          "bonus_msg": null
+        },
+        "confirmation_notified_at": 1792460804.105625
+      },
+      "5239640196": {
+        "user_id": "8598790977",
+        "username": "arshxy",
+        "crypto": "btc",
+        "pay_currency": "btc",
+        "network": "btc",
+        "order_id": "dep_8598790977_1792501270",
+        "payment_id": "5239640196",
+        "pay_address": "3CVajMfUcigpkcTATDtZofPB6EgaCmCmN1",
+        "expected_coin_amount": 0.00012261,
+        "amount_usd": 10.0,
+        "created_at": 1792501270.0,
+        "expires_at": 1792504870.0,
+        "next_poll_at": 1792502049.830958,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792501274.9986804,
+        "expired_at": 1792585642.407815
+      }
+    },
+    "nowpayments_pending_withdrawals": {},
+    "processed_payment_ids": [
+      "gift_regular:5170145012310081615:8639404236:2026-09-19T17:08:05+00:00",
+      "bd61632",
+      "gift_regular:5170144170496491616:8639404236:2026-09-19T17:08:02+00:00",
+      "gift_regular:5170250947678437525:8639404236:2026-09-27T18:11:49+00:00",
+      "gift_regular:5170145012310081615:8639404236:2026-09-19T17:08:04+00:00",
+      "5096667756",
+      "gift_regular:5170145012310081615:8639404236:2026-09-27T18:11:51+00:00",
+      "gift_regular:5170233102089322756:8639404236:2026-09-27T18:11:52+00:00",
+      "gift_regular:5170145012310081615:1196029909:2026-09-01T11:04:31+00:00",
+      "bd4219"
+    ],
+    "processed_deposit_txids": [
+      "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE"
+    ],
+    "crypto_sources": {},
+    "stuck_deposit_reports": {},
+    "coinflip_stickers": {
+      "btc": "CAACAgQAAxkBAAIFsWjiEVAj_Y28IILD1cMnF-JSd_vkAAKNGgACTP5wUadjjU-B8yusNgQ",
+      "eth": "CAACAgQAAxkBAAIFsWjiEVAj_Y28IILD1cMnF-JSd_vkAAKNGgACTP5wUadjjU-B8yusNgQ",
+      "heads": null,
+      "tails": null
+    },
+    "rollers_roulette_stickers": {
+      "pack_name": "rollers_roullete_by_rollersgamebot",
+      "title": "Rollers Roullete By @rollerscasino",
+      "is_animated": false,
+      "stickers": [
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z2RmeUCqT5CgZrYsenAAHYkAACpCIAApS2IFRKz22rx3MkED0E"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3abfyhvses03LYrCWLJ4y8mAAJ-HQAChDcoVHYZAAH7cvoFMT0E"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ZdtsZ16mYc0rDp16fjfz5gAAJaHwACD6MgVGMz1zs45kJ4PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3aTKsJJSvbfk9SuTuy9jUh8AAIsKwACBK0pVAdgTXG6cn4uPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z07yijjMcpW5LmNN2d32rRAAKcIwACq58oVEYcB0SUtM2gPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z0U7y5eVT82l9qAl4JCzfpAAI0HgACmdsoVHFvIPJBm2jCPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ZaUsicI-WVTJpxT1TsZuzkAAJqIAACVRQpVIb9wtHyqt5vPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bFNOVFWwQ5wZE6lHOpv85nAALXIQACtWspVJIxATE4sAG9PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Y0k5n3RCP43rcCNCGEiRdOAAIhIwAC9oggVOtmf3a3NWDUPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3abjlLCOJH43QN1e7i7nH93AALBIgACDXEoVGYjlGwCyG5PPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Y72YSP2b-rm1stMDGjO82RAAIaHwAC_6gpVKSjfFVyYwcYPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3YGeg6_I_s-kcrT2BqMTvpTAAJgKAACAmghVFlATkRAzHUpPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bMW0MizcSsSq9-BUdTd69sAAIUJgACguIgVKBTdNUtHD3JPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ajrYY59w_XjP7Q4MKRzxJ0AAKuHwACrxkpVKGt82gWdDq_PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bGiIc8f0FPEHytrwZs_zwuAAIlKgACHxcoVHg6UwkFNn8qPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3a7mAHVU-0coD3ggooOW8vCAAJhHwACXcsoVFYDxhz-RKnaPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3aluoT2X8pJJ54Ia2aNmKQCAAIlIAACXlsoVCaIYUkNy61ePQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z_HvpmfQ645aYgReZIBoC8AAJ7JQACzOAoVPh41lOK9n8EPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Zd6t2QqpKCB5dvgouhssCmAAJdJAAC-AwoVHiAM0XZjRDHPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bUiAOMeHrj9UXk8YWX7C5rAALRIAACDh0pVA-kzI-m7Z4YPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3b2_V5kGzA3EiNvKYoSWeeJAAK2HwACFWggVO28r38OhU7-PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3a8E3bqVntK43HYjdu6kxzBAAJdJAACbvYpVFCZ5feSLZCBPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bEFGxVSKG01A0KbTx3-C3JAAK7JAAC8fooVN-kzka2_uuAPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bhUfWb6FbfF3sP4cdiSR9EAAJ-IQACEDUgVHoWcnuVLGC4PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3atYjiaBk60w9PQoXCza5axAAJaIwACWb4oVNH_7hBFzhtLPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Zo34GucyO2m5M2TPBVx2rCAALtJAACWc4gVAuneCXFSrOEPQQ"
+        }
+      ]
+    },
+    "banned_users": {},
+    "user_saved_withdrawal_addresses": {},
+    "pending_cctip_requests": {},
+    "disabled_games": [],
+    "casino_maintenance_mode": false,
+    "profit_tracking": {
+      "daily": {},
+      "weekly": {},
+      "monthly": {},
+      "total_deposits": 0,
+      "total_withdrawals": 0,
+      "total_house_profit": 0,
+      "total_games_played": 0
+    },
+    "vip_users": {},
+    "user_intel": {},
+    "mod_whitelist": [],
+    "mod_actions_log": [],
+    "_active_race": {},
+    "_race_wagering": {},
+    "_race_usernames": {},
+    "_active_raffle": {},
+    "_raffle_start_wager": {},
+    "user_raffle_wagering": {
+      "8598790977": 370.0,
+      "8866172837": 15.0
+    },
+    "last_save_timestamp": 1792625259.3938575,
+    "save_count": 1,
+    "_events": {
+      "deposit_bonuses": {},
+      "deposit_race": {},
+      "cashback_events": {},
+      "stats": {
+        "total_bonuses_paid": 0.0,
+        "total_cashback_paid": 0.0,
+        "total_race_prizes": 0.0
+      }
+    }
+  },
+  "backup_data": {
+    "user_balances": {
+      "8598790977": 511.98,
+      "8639404236": 1.60714287,
+      "1196029909": 0.17857143,
+      "8866172837": 197.38102324,
+      "8619212375": 0.0,
+      "8750866470": 0.0,
+      "8851859565": 0.0,
+      "8670909576": 0.0,
+      "7830105011": 0.0,
+      "91144900": 10.0,
+      "1": 0.0
+    },
+    "user_coins": {},
+    "user_coin_last_roll": {},
+    "user_wallet_mode": {
+      "8598790977": "real",
+      "8619212375": "real",
+      "8851859565": "real"
+    },
+    "player_data": {
+      "8598790977": {
+        "deposited": true,
+        "total_deposited": 666.0,
+        "wager_requirement": 0.0
+      },
+      "8639404236": {
+        "deposited": true,
+        "total_deposited": 1.60714287,
+        "wager_requirement": 15.0
+      },
+      "1196029909": {
+        "deposited": true,
+        "total_deposited": 0.17857143,
+        "wager_requirement": 15.0
+      },
+      "8866172837": {
+        "deposited": true,
+        "total_deposited": 212.38102324,
+        "wager_requirement": 15.0
+      }
+    },
+    "casino_balance_usd": 1592.1667375257139,
+    "user_currency_preferences": {},
+    "deposit_counter": 1,
+    "withdrawal_counter": 1,
+    "owner_id": 8598790977,
+    "min_bet": 1.0,
+    "min_deposit": 1.0,
+    "min_withdrawal": 10.0,
+    "user_states": {
+      "8851859565": "slot_emoji_waiting_bet",
+      "8598790977": "none"
+    },
+    "pending_deposits": {},
+    "pending_withdrawals": {},
+    "pending_owner_payments": {},
+    "active_games": {},
+    "keno_sessions": {
+      "e26fe13f7570": {
+        "game": "keno",
+        "session_id": "e26fe13f7570",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1952,
+        "mode": "easy",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          2,
+          3,
+          10,
+          11,
+          13,
+          18,
+          19,
+          26,
+          27,
+          28
+        ],
+        "draw_numbers": [
+          22,
+          8,
+          25,
+          13,
+          19,
+          4,
+          10,
+          20,
+          35,
+          40
+        ],
+        "revealed_numbers": [
+          22,
+          8,
+          25,
+          13,
+          19,
+          4,
+          10,
+          20,
+          35,
+          40
+        ],
+        "hit_numbers": [
+          13,
+          19,
+          10
+        ],
+        "current_multiplier": 1.1,
+        "potential_win": 22.0,
+        "final_payout": 22.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": true,
+        "created_at": 1788104333.9681923,
+        "started_at": 1788104776.9743748,
+        "finished_at": 1788104788.7548947
+      },
+      "dbca7bf86d7e": {
+        "game": "keno",
+        "session_id": "dbca7bf86d7e",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1968,
+        "mode": "classic",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          3,
+          9,
+          10,
+          17,
+          18,
+          19,
+          25,
+          26,
+          27,
+          34
+        ],
+        "draw_numbers": [
+          23,
+          27,
+          2,
+          26,
+          29,
+          30,
+          5,
+          33,
+          14,
+          10
+        ],
+        "revealed_numbers": [
+          23,
+          27,
+          2,
+          26,
+          29,
+          30,
+          5,
+          33,
+          14,
+          10
+        ],
+        "hit_numbers": [
+          27,
+          26,
+          10
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788107649.8143845,
+        "started_at": 1788107708.0579886,
+        "finished_at": 1788107717.1481993,
+        "result_message_id": 1968
+      },
+      "3e6bcd7dc6e3": {
+        "game": "keno",
+        "session_id": "3e6bcd7dc6e3",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1974,
+        "mode": "medium",
+        "bet_amount": 10.0,
+        "selected_numbers": [
+          2,
+          3,
+          9,
+          12,
+          18,
+          19,
+          25,
+          27,
+          34,
+          35
+        ],
+        "draw_numbers": [
+          36,
+          27,
+          21,
+          34,
+          9,
+          13,
+          11,
+          7,
+          31,
+          5
+        ],
+        "revealed_numbers": [
+          36,
+          27,
+          21,
+          34,
+          9,
+          13,
+          11,
+          7,
+          31,
+          5
+        ],
+        "hit_numbers": [
+          27,
+          34,
+          9
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788108031.5637307,
+        "started_at": 1788108069.5279367,
+        "finished_at": 1788108078.5198987
+      },
+      "92e3383de0a3": {
+        "game": "keno",
+        "session_id": "92e3383de0a3",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1976,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          1,
+          5,
+          7,
+          10,
+          21,
+          22,
+          29,
+          30,
+          31,
+          40
+        ],
+        "draw_numbers": [
+          28,
+          19,
+          32,
+          27,
+          31,
+          8,
+          17,
+          40,
+          15,
+          23
+        ],
+        "revealed_numbers": [
+          28,
+          19,
+          32,
+          27,
+          31,
+          8,
+          17,
+          40,
+          15,
+          23
+        ],
+        "hit_numbers": [
+          31,
+          40
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788108324.8016691,
+        "started_at": 1788108338.2829297,
+        "finished_at": 1788108347.2926488
+      },
+      "5ccc3dd5a490": {
+        "game": "keno",
+        "session_id": "5ccc3dd5a490",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1981,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          7,
+          8,
+          13,
+          14,
+          20,
+          22,
+          30,
+          32,
+          33,
+          40
+        ],
+        "draw_numbers": [
+          20,
+          6,
+          10,
+          34,
+          30,
+          25,
+          39,
+          11,
+          31,
+          36
+        ],
+        "revealed_numbers": [
+          20,
+          6,
+          10,
+          34,
+          30,
+          25,
+          39,
+          11,
+          31,
+          36
+        ],
+        "hit_numbers": [
+          20,
+          30
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788109481.04815,
+        "started_at": 1788109497.6781847,
+        "finished_at": 1788109506.7583876
+      },
+      "09ab4b410fb8": {
+        "game": "keno",
+        "session_id": "09ab4b410fb8",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1983,
+        "mode": "classic",
+        "bet_amount": 10.0,
+        "selected_numbers": [
+          4,
+          8,
+          13,
+          14,
+          16,
+          20,
+          24,
+          31,
+          33,
+          39
+        ],
+        "draw_numbers": [
+          34,
+          11,
+          38,
+          32,
+          24,
+          16,
+          35,
+          27,
+          4,
+          22
+        ],
+        "revealed_numbers": [
+          34,
+          11,
+          38,
+          32,
+          24,
+          16,
+          35,
+          27,
+          4,
+          22
+        ],
+        "hit_numbers": [
+          24,
+          16,
+          4
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788110065.231984,
+        "started_at": 1788110073.9225616,
+        "finished_at": 1788110085.0240245
+      },
+      "b74d3f30690a": {
+        "game": "keno",
+        "session_id": "b74d3f30690a",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 1987,
+        "mode": "medium",
+        "bet_amount": 20.0,
+        "selected_numbers": [
+          2,
+          8,
+          10,
+          14,
+          18,
+          20,
+          22,
+          26,
+          29,
+          40
+        ],
+        "draw_numbers": [
+          2,
+          34,
+          25,
+          16,
+          6,
+          17,
+          30,
+          20,
+          19,
+          22
+        ],
+        "revealed_numbers": [
+          2,
+          34,
+          25,
+          16,
+          6,
+          17,
+          30,
+          20,
+          19,
+          22
+        ],
+        "hit_numbers": [
+          2,
+          20,
+          22
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788111742.8983016,
+        "started_at": 1788111749.7515867,
+        "finished_at": 1788111761.3209872
+      },
+      "76ea50bb2954": {
+        "game": "keno",
+        "session_id": "76ea50bb2954",
+        "user_id": "8598790977",
+        "chat_id": 8598790977,
+        "message_id": 2145,
+        "bet_amount": 30.0,
+        "selected_numbers": [
+          2,
+          8,
+          13,
+          17,
+          18,
+          25,
+          26,
+          30,
+          33,
+          39
+        ],
+        "draw_numbers": [
+          4,
+          24,
+          28,
+          9,
+          7,
+          17,
+          14,
+          15,
+          29,
+          33
+        ],
+        "revealed_numbers": [
+          4,
+          24,
+          28,
+          9,
+          7,
+          17,
+          14,
+          15,
+          29,
+          33
+        ],
+        "hit_numbers": [
+          17,
+          33
+        ],
+        "current_multiplier": 0.0,
+        "potential_win": 0.0,
+        "final_payout": 0.0,
+        "status": "finished",
+        "bet_debited": true,
+        "payout_credited": false,
+        "created_at": 1788128415.7200089,
+        "started_at": 1788128422.5367415,
+        "finished_at": 1788128433.7352955
+      }
+    },
+    "hilo_games": {},
+    "user_levels": {},
+    "user_boost_status": {},
+    "user_profiles": {
+      "8598790977": {
+        "joined_at": 1788104013.483857,
+        "username": "arshxy",
+        "first_name": "#1",
+        "currency": "USD",
+        "lt_games": 16,
+        "lt_wins": 1,
+        "lt_won": 96.0,
+        "lt_wagered": 370.0,
+        "lt_first_game_ts": 1788104270,
+        "lt_last_game_ts": 1792497101
+      },
+      "8750866470": {
+        "joined_at": 1792490944.2122183,
+        "username": "Pabloescobxr",
+        "first_name": "Pablo Escobar",
+        "currency": "USD"
+      },
+      "8866172837": {
+        "lt_games": 1,
+        "lt_wins": 0,
+        "lt_won": 0.0,
+        "lt_wagered": 15.0,
+        "lt_first_game_ts": 1792588126,
+        "lt_last_game_ts": 1792588126
+      },
+      "91144900": {
+        "first_name": "\ua731\u1d21\u039b\u0262\u0262\u028f\u2122",
+        "username": "",
+        "joined": 1792598214
+      }
+    },
+    "user_gift_profiles": {},
+    "processed_telegram_gifts": [
+      "regular:5170144170496491616:8639404236:2026-09-19T17:08:02+00:00",
+      "regular:5170145012310081615:1196029909:2026-09-01T11:04:31+00:00",
+      "regular:5170233102089322756:8639404236:2026-09-27T18:11:52+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-27T18:11:51+00:00",
+      "regular:5170250947678437525:8639404236:2026-09-27T18:11:49+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-19T17:08:05+00:00",
+      "unique:unknown::2026-08-13T16:27:32+00:00",
+      "regular:5170145012310081615:8639404236:2026-09-19T17:08:04+00:00"
+    ],
+    "unattributed_telegram_gifts": {
+      "unique:unknown::2026-09-16T16:59:36+00:00": {
+        "gift_id": "Telegram Gift",
+        "type": "unique",
+        "stars": 0,
+        "usd": 0.0,
+        "sender_id": "",
+        "sender_username": "",
+        "send_date": "2026-09-16T16:59:36+00:00"
+      }
+    },
+    "gift_tracking_initialized": true,
+    "game_history": {},
+    "referral_data": {},
+    "referral_earnings": {},
+    "pending_referral_commissions": {},
+    "referral_wager_earnings": {},
+    "referral_deposit_earnings": {},
+    "referral_daily_earnings": {},
+    "referral_top_referred": {},
+    "referral_codes": {},
+    "chat_owner_groups": {
+      "-1004392540680": {
+        "owner_id": "91144900",
+        "title": "M\u1d1cs\u026a\u1d04 L\u1d0f\u0262\u0262\u1d07\u0280",
+        "username": "",
+        "registered_at": 1792598138.555645
+      }
+    },
+    "pending_challenges": {},
+    "active_pvp_games": {},
+    "user_wagering_totals": {
+      "8598790977": 370.0,
+      "8866172837": 15.0
+    },
+    "user_streak_data": {
+      "8598790977": {
+        "streak": 0,
+        "last_checkin": "2026-08-30",
+        "today_wagered": 40.0,
+        "wager_date": "2026-10-20"
+      },
+      "8866172837": {
+        "streak": 0,
+        "last_checkin": "",
+        "today_wagered": 15.0,
+        "wager_date": "2026-10-21"
+      }
+    },
+    "user_level_bonus_claimed": {
+      "8598790977": 0,
+      "8866172837": 0
+    },
+    "user_losses_rakeback": {
+      "8598790977": 0.027000000000000003,
+      "8866172837": 0.0015
+    },
+    "user_last_rakeback_claim": {},
+    "user_raffle_tickets": {},
+    "user_match_history": {
+      "8598790977": [
+        {
+          "timestamp": 1788104270,
+          "id": "70623",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_1_of_6",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788104788,
+          "id": "88760",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "easy_3_of_10",
+          "winnings": 22.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788107717,
+          "id": "17154",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "classic_3_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788108078,
+          "id": "78527",
+          "game": "keno",
+          "bet": 10.0,
+          "result": "medium_3_of_10",
+          "winnings": 0.0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788108347,
+          "id": "47300",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_2_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788109506,
+          "id": "06768",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_2_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788110085,
+          "id": "85031",
+          "game": "keno",
+          "bet": 10.0,
+          "result": "classic_3_of_10",
+          "winnings": 0.0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788111761,
+          "id": "61329",
+          "game": "keno",
+          "bet": 20.0,
+          "result": "medium_3_of_10",
+          "winnings": 0.0,
+          "profit": -20.0
+        },
+        {
+          "timestamp": 1788128339,
+          "id": "39321",
+          "game": "dice",
+          "bet": 50.0,
+          "result": "win",
+          "winnings": 96.0,
+          "profit": 46.0
+        },
+        {
+          "timestamp": 1788128369,
+          "id": "69629",
+          "game": "dice",
+          "bet": 50.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -50.0
+        },
+        {
+          "timestamp": 1788128409,
+          "id": "09977",
+          "game": "keno",
+          "bet": 30.0,
+          "result": "5_of_10",
+          "winnings": 84.0,
+          "profit": -30.0
+        },
+        {
+          "timestamp": 1788128433,
+          "id": "33741",
+          "game": "keno",
+          "bet": 30.0,
+          "result": "2_of_10",
+          "winnings": 0.0,
+          "profit": -30.0
+        },
+        {
+          "timestamp": 1788128504,
+          "id": "04412",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.48",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788128520,
+          "id": "20461",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.28",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1788132718,
+          "id": "18696",
+          "game": "pump",
+          "bet": 10.0,
+          "result": "burst_1.28",
+          "winnings": 0,
+          "profit": -10.0
+        },
+        {
+          "timestamp": 1792497101,
+          "id": "01236",
+          "game": "dice",
+          "bet": 40.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -40.0
+        }
+      ],
+      "8866172837": [
+        {
+          "timestamp": 1792588126,
+          "id": "26978",
+          "game": "dice",
+          "bet": 15.0,
+          "result": "loss",
+          "winnings": 0,
+          "profit": -15.0
+        }
+      ]
+    },
+    "user_wagering_requirements": {
+      "8598790977": 0.0,
+      "8639404236": 15.0,
+      "1196029909": 15.0,
+      "8866172837": 15.0
+    },
+    "user_bonus_balances": {},
+    "user_crypto_bonus_claims": {
+      "8598790977": {
+        "claimed_at": 1788128449.2396388,
+        "deposit_total": 666.0,
+        "bonus_amount": 19.98,
+        "rate": 0.03
+      }
+    },
+    "bonus_codes": {},
+    "manager_ids": [],
+    "user_claimed_codes": {},
+    "user_bonus_wager_data": {},
+    "user_pending_bonus_claims": {},
+    "user_deposit_totals": {
+      "8598790977": 666.0,
+      "8639404236": 1.6071428571428572,
+      "1196029909": 0.17857142857142855,
+      "8866172837": 212.38102324
+    },
+    "user_deposit_history": {
+      "8598790977": [
+        {
+          "ts": 1788104222.3733292,
+          "amount": 666.0,
+          "currency": "ADMIN",
+          "source": "admin_botdepo",
+          "txid": "bd4219"
+        }
+      ],
+      "8639404236": [
+        {
+          "ts": 1792459234.3019135,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459239.4415245,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459244.634204,
+          "amount": 0.2976190476190476,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459249.957138,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459255.0684795,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        },
+        {
+          "ts": 1792459260.1117194,
+          "amount": 0.5952380952380952,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        }
+      ],
+      "1196029909": [
+        {
+          "ts": 1792459265.3322349,
+          "amount": 0.17857142857142855,
+          "currency": "TELEGRAM_GIFT",
+          "source": "telegram_gift"
+        }
+      ],
+      "8866172837": [
+        {
+          "ts": 1792460802.5314,
+          "amount": 12.38102324,
+          "currency": "SOL",
+          "source": "nowpayments_exact_poll"
+        },
+        {
+          "ts": 1792461634.9385011,
+          "amount": 200.0,
+          "currency": "ADMIN",
+          "source": "admin_botdepo",
+          "txid": "bd61632"
+        }
+      ]
+    },
+    "user_last_deposit_ts": {
+      "8598790977": 1788104222.3733878,
+      "8639404236": 1792459260.116384,
+      "1196029909": 1792459265.336221,
+      "8866172837": 1792461634.9385219
+    },
+    "user_tip_received": {
+      "91144900": true
+    },
+    "user_client_seeds": {},
+    "user_transfer_codes": {},
+    "_pending_tips": {},
+    "house_balance": 1592.1667375257139,
+    "crypto_house_balances": {
+      "USDT": 1592.1667375257139
+    },
+    "user_crypto_deposits": {},
+    "user_crypto_addresses": {},
+    "pending_crypto_deposits": {},
+    "pending_crypto_withdrawals": {},
+    "nowpayments_pending_deposits": {
+      "4918050489": {
+        "user_id": "8598790977",
+        "username": "arshxy",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8598790977_1792459586",
+        "payment_id": "4918050489",
+        "pay_address": "65bygvYNdvS6poGKzARM9pFAfiCsWmkG5QLNaZuyYBc1",
+        "expected_coin_amount": 0.09590986,
+        "amount_usd": 10.0,
+        "created_at": 1792459587.0,
+        "expires_at": 1792463187.0,
+        "next_poll_at": 1792461770.5162294,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792459590.6615944,
+        "expired_at": 1792489875.2109897
+      },
+      "5254732462": {
+        "user_id": "8866172837",
+        "username": "",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8866172837_1792460359",
+        "payment_id": "5254732462",
+        "pay_address": "76Cnnsxvv2Z4UE55NmnbLUasb9PxdhFdUrDNRFTvBSbz",
+        "expected_coin_amount": 0.09555836,
+        "amount_usd": 10.0,
+        "created_at": 1792460359.0,
+        "expires_at": 1792463959.0,
+        "next_poll_at": 1792461770.5162294,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792460365.2148252,
+        "expired_at": 1792489875.2109897
+      },
+      "5096667756": {
+        "user_id": "8866172837",
+        "username": "",
+        "crypto": "sol",
+        "pay_currency": "sol",
+        "network": "sol",
+        "order_id": "dep_8866172837_1792460361",
+        "payment_id": "5096667756",
+        "pay_address": "CkwGyxs5bCyoDWYW2PFbpy5JXyLRRYsS3FbhbSyK2EAQ",
+        "expected_coin_amount": 0.09555836,
+        "amount_usd": 10.0,
+        "created_at": 1792460361.0,
+        "expires_at": 1792463961.0,
+        "next_poll_at": 1792460815.2129648,
+        "poll_failures": 0,
+        "status": "credited",
+        "state": "CREDITED",
+        "last_error": "",
+        "last_status": "finished",
+        "last_status_at": 1792460800.2129648,
+        "detected_at": 1792460800.2129648,
+        "processing_currency": "SOL",
+        "detected_coin_amount": 0.11842203,
+        "detected_txid": "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE",
+        "processing_notified_at": 1792460802.5280714,
+        "credited_at": 1792460804.1061234,
+        "confirmation_notification": {
+          "usd_amount": 12.38102324,
+          "fee_amount": 0.0,
+          "pay_currency": "SOL",
+          "coin_amount": 0.11842203,
+          "txid": "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE",
+          "network": "sol",
+          "username": "",
+          "bonus_msg": null
+        },
+        "confirmation_notified_at": 1792460804.105625
+      },
+      "5239640196": {
+        "user_id": "8598790977",
+        "username": "arshxy",
+        "crypto": "btc",
+        "pay_currency": "btc",
+        "network": "btc",
+        "order_id": "dep_8598790977_1792501270",
+        "payment_id": "5239640196",
+        "pay_address": "3CVajMfUcigpkcTATDtZofPB6EgaCmCmN1",
+        "expected_coin_amount": 0.00012261,
+        "amount_usd": 10.0,
+        "created_at": 1792501270.0,
+        "expires_at": 1792504870.0,
+        "next_poll_at": 1792502049.830958,
+        "poll_failures": 1,
+        "status": "expired",
+        "state": "WAITING_FOR_PAYMENT",
+        "last_error": "",
+        "last_status": "waiting",
+        "last_status_at": 1792501274.9986804,
+        "expired_at": 1792585642.407815
+      }
+    },
+    "nowpayments_pending_withdrawals": {},
+    "processed_payment_ids": [
+      "gift_regular:5170145012310081615:8639404236:2026-09-19T17:08:05+00:00",
+      "bd61632",
+      "gift_regular:5170144170496491616:8639404236:2026-09-19T17:08:02+00:00",
+      "gift_regular:5170250947678437525:8639404236:2026-09-27T18:11:49+00:00",
+      "gift_regular:5170145012310081615:8639404236:2026-09-19T17:08:04+00:00",
+      "5096667756",
+      "gift_regular:5170145012310081615:8639404236:2026-09-27T18:11:51+00:00",
+      "gift_regular:5170233102089322756:8639404236:2026-09-27T18:11:52+00:00",
+      "gift_regular:5170145012310081615:1196029909:2026-09-01T11:04:31+00:00",
+      "bd4219"
+    ],
+    "processed_deposit_txids": [
+      "4u3CwUFR7dDGHxESyQQbpUKwjndeyiAQwtQH8qb39AA6cr41Sgq2X5QN7RaQwT8eaEqmaBcNEvie1tRdV7gzFuhE"
+    ],
+    "crypto_sources": {},
+    "stuck_deposit_reports": {},
+    "coinflip_stickers": {
+      "btc": "CAACAgQAAxkBAAIFsWjiEVAj_Y28IILD1cMnF-JSd_vkAAKNGgACTP5wUadjjU-B8yusNgQ",
+      "eth": "CAACAgQAAxkBAAIFsWjiEVAj_Y28IILD1cMnF-JSd_vkAAKNGgACTP5wUadjjU-B8yusNgQ",
+      "heads": null,
+      "tails": null
+    },
+    "rollers_roulette_stickers": {
+      "pack_name": "rollers_roullete_by_rollersgamebot",
+      "title": "Rollers Roullete By @rollerscasino",
+      "is_animated": false,
+      "stickers": [
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z2RmeUCqT5CgZrYsenAAHYkAACpCIAApS2IFRKz22rx3MkED0E"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3abfyhvses03LYrCWLJ4y8mAAJ-HQAChDcoVHYZAAH7cvoFMT0E"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ZdtsZ16mYc0rDp16fjfz5gAAJaHwACD6MgVGMz1zs45kJ4PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3aTKsJJSvbfk9SuTuy9jUh8AAIsKwACBK0pVAdgTXG6cn4uPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z07yijjMcpW5LmNN2d32rRAAKcIwACq58oVEYcB0SUtM2gPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z0U7y5eVT82l9qAl4JCzfpAAI0HgACmdsoVHFvIPJBm2jCPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ZaUsicI-WVTJpxT1TsZuzkAAJqIAACVRQpVIb9wtHyqt5vPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bFNOVFWwQ5wZE6lHOpv85nAALXIQACtWspVJIxATE4sAG9PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Y0k5n3RCP43rcCNCGEiRdOAAIhIwAC9oggVOtmf3a3NWDUPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3abjlLCOJH43QN1e7i7nH93AALBIgACDXEoVGYjlGwCyG5PPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Y72YSP2b-rm1stMDGjO82RAAIaHwAC_6gpVKSjfFVyYwcYPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3YGeg6_I_s-kcrT2BqMTvpTAAJgKAACAmghVFlATkRAzHUpPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bMW0MizcSsSq9-BUdTd69sAAIUJgACguIgVKBTdNUtHD3JPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3ajrYY59w_XjP7Q4MKRzxJ0AAKuHwACrxkpVKGt82gWdDq_PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bGiIc8f0FPEHytrwZs_zwuAAIlKgACHxcoVHg6UwkFNn8qPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3a7mAHVU-0coD3ggooOW8vCAAJhHwACXcsoVFYDxhz-RKnaPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3aluoT2X8pJJ54Ia2aNmKQCAAIlIAACXlsoVCaIYUkNy61ePQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Z_HvpmfQ645aYgReZIBoC8AAJ7JQACzOAoVPh41lOK9n8EPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Zd6t2QqpKCB5dvgouhssCmAAJdJAAC-AwoVHiAM0XZjRDHPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bUiAOMeHrj9UXk8YWX7C5rAALRIAACDh0pVA-kzI-m7Z4YPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3b2_V5kGzA3EiNvKYoSWeeJAAK2HwACFWggVO28r38OhU7-PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3a8E3bqVntK43HYjdu6kxzBAAJdJAACbvYpVFCZ5feSLZCBPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bEFGxVSKG01A0KbTx3-C3JAAK7JAAC8fooVN-kzka2_uuAPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3bhUfWb6FbfF3sP4cdiSR9EAAJ-IQACEDUgVHoWcnuVLGC4PQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3atYjiaBk60w9PQoXCza5axAAJaIwACWb4oVNH_7hBFzhtLPQQ"
+        },
+        {
+          "file_id": "CAACAgUAAxUAAWqFx3Zo34GucyO2m5M2TPBVx2rCAALtJAACWc4gVAuneCXFSrOEPQQ"
+        }
+      ]
+    },
+    "banned_users": {},
+    "user_saved_withdrawal_addresses": {},
+    "pending_cctip_requests": {},
+    "disabled_games": [],
+    "casino_maintenance_mode": false,
+    "profit_tracking": {
+      "daily": {},
+      "weekly": {},
+      "monthly": {},
+      "total_deposits": 0,
+      "total_withdrawals": 0,
+      "total_house_profit": 0,
+      "total_games_played": 0
+    },
+    "vip_users": {},
+    "user_intel": {},
+    "mod_whitelist": [],
+    "mod_actions_log": [],
+    "_active_race": {},
+    "_race_wagering": {},
+    "_race_usernames": {},
+    "_active_raffle": {},
+    "_raffle_start_wager": {},
+    "user_raffle_wagering": {
+      "8598790977": 370.0,
+      "8866172837": 15.0
+    },
+    "last_save_timestamp": 1792625241.8259923,
+    "save_count": 1,
+    "_events": {
+      "deposit_bonuses": {},
+      "deposit_race": {},
+      "cashback_events": {},
+      "stats": {
+        "total_bonuses_paid": 0.0,
+        "total_cashback_paid": 0.0,
+        "total_race_prizes": 0.0
+      }
+    }
+  },
+  "emergency_recovery": "eyJ1c2VyX2JhbGFuY2VzIjogeyI4NTk4NzkwOTc3IjogNTExLjk4LCAiODYzOTQwNDIzNiI6IDEuNjA3MTQyODcsICIxMTk2MDI5OTA5IjogMC4xNzg1NzE0MywgIjg4NjYxNzI4MzciOiAxOTcuMzgxMDIzMjQsICI4NjE5MjEyMzc1IjogMC4wLCAiODc1MDg2NjQ3MCI6IDAuMCwgIjg4NTE4NTk1NjUiOiAwLjAsICI4NjcwOTA5NTc2IjogMC4wLCAiNzgzMDEwNTAxMSI6IDAuMCwgIjkxMTQ0OTAwIjogMTAuMCwgIjEiOiAwLjB9LCAidXNlcl9jb2lucyI6IHt9LCAidXNlcl9jb2luX2xhc3Rfcm9sbCI6IHt9LCAidXNlcl93YWxsZXRfbW9kZSI6IHsiODU5ODc5MDk3NyI6ICJyZWFsIiwgIjg2MTkyMTIzNzUiOiAicmVhbCIsICI4ODUxODU5NTY1IjogInJlYWwifSwgInBsYXllcl9kYXRhIjogeyI4NTk4NzkwOTc3IjogeyJkZXBvc2l0ZWQiOiB0cnVlLCAidG90YWxfZGVwb3NpdGVkIjogNjY2LjAsICJ3YWdlcl9yZXF1aXJlbWVudCI6IDAuMH0sICI4NjM5NDA0MjM2IjogeyJkZXBvc2l0ZWQiOiB0cnVlLCAidG90YWxfZGVwb3NpdGVkIjogMS42MDcxNDI4NywgIndhZ2VyX3JlcXVpcmVtZW50IjogMTUuMH0sICIxMTk2MDI5OTA5IjogeyJkZXBvc2l0ZWQiOiB0cnVlLCAidG90YWxfZGVwb3NpdGVkIjogMC4xNzg1NzE0MywgIndhZ2VyX3JlcXVpcmVtZW50IjogMTUuMH0sICI4ODY2MTcyODM3IjogeyJkZXBvc2l0ZWQiOiB0cnVlLCAidG90YWxfZGVwb3NpdGVkIjogMjEyLjM4MTAyMzI0LCAid2FnZXJfcmVxdWlyZW1lbnQiOiAxNS4wfX0sICJjYXNpbm9fYmFsYW5jZV91c2QiOiAxNTkyLjE2NjczNzUyNTcxMzksICJ1c2VyX2N1cnJlbmN5X3ByZWZlcmVuY2VzIjoge30sICJkZXBvc2l0X2NvdW50ZXIiOiAxLCAid2l0aGRyYXdhbF9jb3VudGVyIjogMSwgIm93bmVyX2lkIjogODU5ODc5MDk3NywgIm1pbl9iZXQiOiAxLjAsICJtaW5fZGVwb3NpdCI6IDEuMCwgIm1pbl93aXRoZHJhd2FsIjogMTAuMCwgInVzZXJfc3RhdGVzIjogeyI4ODUxODU5NTY1IjogInNsb3RfZW1vamlfd2FpdGluZ19iZXQiLCAiODU5ODc5MDk3NyI6ICJub25lIn0sICJwZW5kaW5nX2RlcG9zaXRzIjoge30sICJwZW5kaW5nX3dpdGhkcmF3YWxzIjoge30sICJwZW5kaW5nX293bmVyX3BheW1lbnRzIjoge30sICJhY3RpdmVfZ2FtZXMiOiB7fSwgImtlbm9fc2Vzc2lvbnMiOiB7ImUyNmZlMTNmNzU3MCI6IHsiZ2FtZSI6ICJrZW5vIiwgInNlc3Npb25faWQiOiAiZTI2ZmUxM2Y3NTcwIiwgInVzZXJfaWQiOiAiODU5ODc5MDk3NyIsICJjaGF0X2lkIjogODU5ODc5MDk3NywgIm1lc3NhZ2VfaWQiOiAxOTUyLCAibW9kZSI6ICJlYXN5IiwgImJldF9hbW91bnQiOiAyMC4wLCAic2VsZWN0ZWRfbnVtYmVycyI6IFsyLCAzLCAxMCwgMTEsIDEzLCAxOCwgMTksIDI2LCAyNywgMjhdLCAiZHJhd19udW1iZXJzIjogWzIyLCA4LCAyNSwgMTMsIDE5LCA0LCAxMCwgMjAsIDM1LCA0MF0sICJyZXZlYWxlZF9udW1iZXJzIjogWzIyLCA4LCAyNSwgMTMsIDE5LCA0LCAxMCwgMjAsIDM1LCA0MF0sICJoaXRfbnVtYmVycyI6IFsxMywgMTksIDEwXSwgImN1cnJlbnRfbXVsdGlwbGllciI6IDEuMSwgInBvdGVudGlhbF93aW4iOiAyMi4wLCAiZmluYWxfcGF5b3V0IjogMjIuMCwgInN0YXR1cyI6ICJmaW5pc2hlZCIsICJiZXRfZGViaXRlZCI6IHRydWUsICJwYXlvdXRfY3JlZGl0ZWQiOiB0cnVlLCAiY3JlYXRlZF9hdCI6IDE3ODgxMDQzMzMuOTY4MTkyMywgInN0YXJ0ZWRfYXQiOiAxNzg4MTA0Nzc2Ljk3NDM3NDgsICJmaW5pc2hlZF9hdCI6IDE3ODgxMDQ3ODguNzU0ODk0N30sICJkYmNhN2JmODZkN2UiOiB7ImdhbWUiOiAia2VubyIsICJzZXNzaW9uX2lkIjogImRiY2E3YmY4NmQ3ZSIsICJ1c2VyX2lkIjogIjg1OTg3OTA5NzciLCAiY2hhdF9pZCI6IDg1OTg3OTA5NzcsICJtZXNzYWdlX2lkIjogMTk2OCwgIm1vZGUiOiAiY2xhc3NpYyIsICJiZXRfYW1vdW50IjogMjAuMCwgInNlbGVjdGVkX251bWJlcnMiOiBbMywgOSwgMTAsIDE3LCAxOCwgMTksIDI1LCAyNiwgMjcsIDM0XSwgImRyYXdfbnVtYmVycyI6IFsyMywgMjcsIDIsIDI2LCAyOSwgMzAsIDUsIDMzLCAxNCwgMTBdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFsyMywgMjcsIDIsIDI2LCAyOSwgMzAsIDUsIDMzLCAxNCwgMTBdLCAiaGl0X251bWJlcnMiOiBbMjcsIDI2LCAxMF0sICJjdXJyZW50X211bHRpcGxpZXIiOiAwLjAsICJwb3RlbnRpYWxfd2luIjogMC4wLCAiZmluYWxfcGF5b3V0IjogMC4wLCAic3RhdHVzIjogImZpbmlzaGVkIiwgImJldF9kZWJpdGVkIjogdHJ1ZSwgInBheW91dF9jcmVkaXRlZCI6IGZhbHNlLCAiY3JlYXRlZF9hdCI6IDE3ODgxMDc2NDkuODE0Mzg0NSwgInN0YXJ0ZWRfYXQiOiAxNzg4MTA3NzA4LjA1Nzk4ODYsICJmaW5pc2hlZF9hdCI6IDE3ODgxMDc3MTcuMTQ4MTk5MywgInJlc3VsdF9tZXNzYWdlX2lkIjogMTk2OH0sICIzZTZiY2Q3ZGM2ZTMiOiB7ImdhbWUiOiAia2VubyIsICJzZXNzaW9uX2lkIjogIjNlNmJjZDdkYzZlMyIsICJ1c2VyX2lkIjogIjg1OTg3OTA5NzciLCAiY2hhdF9pZCI6IDg1OTg3OTA5NzcsICJtZXNzYWdlX2lkIjogMTk3NCwgIm1vZGUiOiAibWVkaXVtIiwgImJldF9hbW91bnQiOiAxMC4wLCAic2VsZWN0ZWRfbnVtYmVycyI6IFsyLCAzLCA5LCAxMiwgMTgsIDE5LCAyNSwgMjcsIDM0LCAzNV0sICJkcmF3X251bWJlcnMiOiBbMzYsIDI3LCAyMSwgMzQsIDksIDEzLCAxMSwgNywgMzEsIDVdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFszNiwgMjcsIDIxLCAzNCwgOSwgMTMsIDExLCA3LCAzMSwgNV0sICJoaXRfbnVtYmVycyI6IFsyNywgMzQsIDldLCAiY3VycmVudF9tdWx0aXBsaWVyIjogMC4wLCAicG90ZW50aWFsX3dpbiI6IDAuMCwgImZpbmFsX3BheW91dCI6IDAuMCwgInN0YXR1cyI6ICJmaW5pc2hlZCIsICJiZXRfZGViaXRlZCI6IHRydWUsICJwYXlvdXRfY3JlZGl0ZWQiOiBmYWxzZSwgImNyZWF0ZWRfYXQiOiAxNzg4MTA4MDMxLjU2MzczMDcsICJzdGFydGVkX2F0IjogMTc4ODEwODA2OS41Mjc5MzY3LCAiZmluaXNoZWRfYXQiOiAxNzg4MTA4MDc4LjUxOTg5ODd9LCAiOTJlMzM4M2RlMGEzIjogeyJnYW1lIjogImtlbm8iLCAic2Vzc2lvbl9pZCI6ICI5MmUzMzgzZGUwYTMiLCAidXNlcl9pZCI6ICI4NTk4NzkwOTc3IiwgImNoYXRfaWQiOiA4NTk4NzkwOTc3LCAibWVzc2FnZV9pZCI6IDE5NzYsICJtb2RlIjogIm1lZGl1bSIsICJiZXRfYW1vdW50IjogMjAuMCwgInNlbGVjdGVkX251bWJlcnMiOiBbMSwgNSwgNywgMTAsIDIxLCAyMiwgMjksIDMwLCAzMSwgNDBdLCAiZHJhd19udW1iZXJzIjogWzI4LCAxOSwgMzIsIDI3LCAzMSwgOCwgMTcsIDQwLCAxNSwgMjNdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFsyOCwgMTksIDMyLCAyNywgMzEsIDgsIDE3LCA0MCwgMTUsIDIzXSwgImhpdF9udW1iZXJzIjogWzMxLCA0MF0sICJjdXJyZW50X211bHRpcGxpZXIiOiAwLjAsICJwb3RlbnRpYWxfd2luIjogMC4wLCAiZmluYWxfcGF5b3V0IjogMC4wLCAic3RhdHVzIjogImZpbmlzaGVkIiwgImJldF9kZWJpdGVkIjogdHJ1ZSwgInBheW91dF9jcmVkaXRlZCI6IGZhbHNlLCAiY3JlYXRlZF9hdCI6IDE3ODgxMDgzMjQuODAxNjY5MSwgInN0YXJ0ZWRfYXQiOiAxNzg4MTA4MzM4LjI4MjkyOTcsICJmaW5pc2hlZF9hdCI6IDE3ODgxMDgzNDcuMjkyNjQ4OH0sICI1Y2NjM2RkNWE0OTAiOiB7ImdhbWUiOiAia2VubyIsICJzZXNzaW9uX2lkIjogIjVjY2MzZGQ1YTQ5MCIsICJ1c2VyX2lkIjogIjg1OTg3OTA5NzciLCAiY2hhdF9pZCI6IDg1OTg3OTA5NzcsICJtZXNzYWdlX2lkIjogMTk4MSwgIm1vZGUiOiAibWVkaXVtIiwgImJldF9hbW91bnQiOiAyMC4wLCAic2VsZWN0ZWRfbnVtYmVycyI6IFs3LCA4LCAxMywgMTQsIDIwLCAyMiwgMzAsIDMyLCAzMywgNDBdLCAiZHJhd19udW1iZXJzIjogWzIwLCA2LCAxMCwgMzQsIDMwLCAyNSwgMzksIDExLCAzMSwgMzZdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFsyMCwgNiwgMTAsIDM0LCAzMCwgMjUsIDM5LCAxMSwgMzEsIDM2XSwgImhpdF9udW1iZXJzIjogWzIwLCAzMF0sICJjdXJyZW50X211bHRpcGxpZXIiOiAwLjAsICJwb3RlbnRpYWxfd2luIjogMC4wLCAiZmluYWxfcGF5b3V0IjogMC4wLCAic3RhdHVzIjogImZpbmlzaGVkIiwgImJldF9kZWJpdGVkIjogdHJ1ZSwgInBheW91dF9jcmVkaXRlZCI6IGZhbHNlLCAiY3JlYXRlZF9hdCI6IDE3ODgxMDk0ODEuMDQ4MTUsICJzdGFydGVkX2F0IjogMTc4ODEwOTQ5Ny42NzgxODQ3LCAiZmluaXNoZWRfYXQiOiAxNzg4MTA5NTA2Ljc1ODM4NzZ9LCAiMDlhYjRiNDEwZmI4IjogeyJnYW1lIjogImtlbm8iLCAic2Vzc2lvbl9pZCI6ICIwOWFiNGI0MTBmYjgiLCAidXNlcl9pZCI6ICI4NTk4NzkwOTc3IiwgImNoYXRfaWQiOiA4NTk4NzkwOTc3LCAibWVzc2FnZV9pZCI6IDE5ODMsICJtb2RlIjogImNsYXNzaWMiLCAiYmV0X2Ftb3VudCI6IDEwLjAsICJzZWxlY3RlZF9udW1iZXJzIjogWzQsIDgsIDEzLCAxNCwgMTYsIDIwLCAyNCwgMzEsIDMzLCAzOV0sICJkcmF3X251bWJlcnMiOiBbMzQsIDExLCAzOCwgMzIsIDI0LCAxNiwgMzUsIDI3LCA0LCAyMl0sICJyZXZlYWxlZF9udW1iZXJzIjogWzM0LCAxMSwgMzgsIDMyLCAyNCwgMTYsIDM1LCAyNywgNCwgMjJdLCAiaGl0X251bWJlcnMiOiBbMjQsIDE2LCA0XSwgImN1cnJlbnRfbXVsdGlwbGllciI6IDAuMCwgInBvdGVudGlhbF93aW4iOiAwLjAsICJmaW5hbF9wYXlvdXQiOiAwLjAsICJzdGF0dXMiOiAiZmluaXNoZWQiLCAiYmV0X2RlYml0ZWQiOiB0cnVlLCAicGF5b3V0X2NyZWRpdGVkIjogZmFsc2UsICJjcmVhdGVkX2F0IjogMTc4ODExMDA2NS4yMzE5ODQsICJzdGFydGVkX2F0IjogMTc4ODExMDA3My45MjI1NjE2LCAiZmluaXNoZWRfYXQiOiAxNzg4MTEwMDg1LjAyNDAyNDV9LCAiYjc0ZDNmMzA2OTBhIjogeyJnYW1lIjogImtlbm8iLCAic2Vzc2lvbl9pZCI6ICJiNzRkM2YzMDY5MGEiLCAidXNlcl9pZCI6ICI4NTk4NzkwOTc3IiwgImNoYXRfaWQiOiA4NTk4NzkwOTc3LCAibWVzc2FnZV9pZCI6IDE5ODcsICJtb2RlIjogIm1lZGl1bSIsICJiZXRfYW1vdW50IjogMjAuMCwgInNlbGVjdGVkX251bWJlcnMiOiBbMiwgOCwgMTAsIDE0LCAxOCwgMjAsIDIyLCAyNiwgMjksIDQwXSwgImRyYXdfbnVtYmVycyI6IFsyLCAzNCwgMjUsIDE2LCA2LCAxNywgMzAsIDIwLCAxOSwgMjJdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFsyLCAzNCwgMjUsIDE2LCA2LCAxNywgMzAsIDIwLCAxOSwgMjJdLCAiaGl0X251bWJlcnMiOiBbMiwgMjAsIDIyXSwgImN1cnJlbnRfbXVsdGlwbGllciI6IDAuMCwgInBvdGVudGlhbF93aW4iOiAwLjAsICJmaW5hbF9wYXlvdXQiOiAwLjAsICJzdGF0dXMiOiAiZmluaXNoZWQiLCAiYmV0X2RlYml0ZWQiOiB0cnVlLCAicGF5b3V0X2NyZWRpdGVkIjogZmFsc2UsICJjcmVhdGVkX2F0IjogMTc4ODExMTc0Mi44OTgzMDE2LCAic3RhcnRlZF9hdCI6IDE3ODgxMTE3NDkuNzUxNTg2NywgImZpbmlzaGVkX2F0IjogMTc4ODExMTc2MS4zMjA5ODcyfSwgIjc2ZWE1MGJiMjk1NCI6IHsiZ2FtZSI6ICJrZW5vIiwgInNlc3Npb25faWQiOiAiNzZlYTUwYmIyOTU0IiwgInVzZXJfaWQiOiAiODU5ODc5MDk3NyIsICJjaGF0X2lkIjogODU5ODc5MDk3NywgIm1lc3NhZ2VfaWQiOiAyMTQ1LCAiYmV0X2Ftb3VudCI6IDMwLjAsICJzZWxlY3RlZF9udW1iZXJzIjogWzIsIDgsIDEzLCAxNywgMTgsIDI1LCAyNiwgMzAsIDMzLCAzOV0sICJkcmF3X251bWJlcnMiOiBbNCwgMjQsIDI4LCA5LCA3LCAxNywgMTQsIDE1LCAyOSwgMzNdLCAicmV2ZWFsZWRfbnVtYmVycyI6IFs0LCAyNCwgMjgsIDksIDcsIDE3LCAxNCwgMTUsIDI5LCAzM10sICJoaXRfbnVtYmVycyI6IFsxNywgMzNdLCAiY3VycmVudF9tdWx0aXBsaWVyIjogMC4wLCAicG90ZW50aWFsX3dpbiI6IDAuMCwgImZpbmFsX3BheW91dCI6IDAuMCwgInN0YXR1cyI6ICJmaW5pc2hlZCIsICJiZXRfZGViaXRlZCI6IHRydWUsICJwYXlvdXRfY3JlZGl0ZWQiOiBmYWxzZSwgImNyZWF0ZWRfYXQiOiAxNzg4MTI4NDE1LjcyMDAwODksICJzdGFydGVkX2F0IjogMTc4ODEyODQyMi41MzY3NDE1LCAiZmluaXNoZWRfYXQiOiAxNzg4MTI4NDMzLjczNTI5NTV9fSwgImhpbG9fZ2FtZXMiOiB7fSwgInVzZXJfbGV2ZWxzIjoge30sICJ1c2VyX2Jvb3N0X3N0YXR1cyI6IHt9LCAidXNlcl9wcm9maWxlcyI6IHsiODU5ODc5MDk3NyI6IHsiam9pbmVkX2F0IjogMTc4ODEwNDAxMy40ODM4NTcsICJ1c2VybmFtZSI6ICJhcnNoeHkiLCAiZmlyc3RfbmFtZSI6ICIjMSIsICJjdXJyZW5jeSI6ICJVU0QiLCAibHRfZ2FtZXMiOiAxNiwgImx0X3dpbnMiOiAxLCAibHRfd29uIjogOTYuMCwgImx0X3dhZ2VyZWQiOiAzNzAuMCwgImx0X2ZpcnN0X2dhbWVfdHMiOiAxNzg4MTA0MjcwLCAibHRfbGFzdF9nYW1lX3RzIjogMTc5MjQ5NzEwMX0sICI4NzUwODY2NDcwIjogeyJqb2luZWRfYXQiOiAxNzkyNDkwOTQ0LjIxMjIxODMsICJ1c2VybmFtZSI6ICJQYWJsb2VzY29ieHIiLCAiZmlyc3RfbmFtZSI6ICJQYWJsbyBFc2NvYmFyIiwgImN1cnJlbmN5IjogIlVTRCJ9LCAiODg2NjE3MjgzNyI6IHsibHRfZ2FtZXMiOiAxLCAibHRfd2lucyI6IDAsICJsdF93b24iOiAwLjAsICJsdF93YWdlcmVkIjogMTUuMCwgImx0X2ZpcnN0X2dhbWVfdHMiOiAxNzkyNTg4MTI2LCAibHRfbGFzdF9nYW1lX3RzIjogMTc5MjU4ODEyNn0sICI5MTE0NDkwMCI6IHsiZmlyc3RfbmFtZSI6ICJcdWE3MzFcdTFkMjFcdTAzOWJcdTAyNjJcdTAyNjJcdTAyOGZcdTIxMjIiLCAidXNlcm5hbWUiOiAiIiwgImpvaW5lZCI6IDE3OTI1OTgyMTR9fSwgInVzZXJfZ2lmdF9wcm9maWxlcyI6IHt9LCAicHJvY2Vzc2VkX3RlbGVncmFtX2dpZnRzIjogWyJyZWd1bGFyOjUxNzAxNDQxNzA0OTY0OTE2MTY6ODYzOTQwNDIzNjoyMDI2LTA5LTE5VDE3OjA4OjAyKzAwOjAwIiwgInJlZ3VsYXI6NTE3MDE0NTAxMjMxMDA4MTYxNToxMTk2MDI5OTA5OjIwMjYtMDktMDFUMTE6MDQ6MzErMDA6MDAiLCAicmVndWxhcjo1MTcwMjMzMTAyMDg5MzIyNzU2Ojg2Mzk0MDQyMzY6MjAyNi0wOS0yN1QxODoxMTo1MiswMDowMCIsICJyZWd1bGFyOjUxNzAxNDUwMTIzMTAwODE2MTU6ODYzOTQwNDIzNjoyMDI2LTA5LTI3VDE4OjExOjUxKzAwOjAwIiwgInJlZ3VsYXI6NTE3MDI1MDk0NzY3ODQzNzUyNTo4NjM5NDA0MjM2OjIwMjYtMDktMjdUMTg6MTE6NDkrMDA6MDAiLCAicmVndWxhcjo1MTcwMTQ1MDEyMzEwMDgxNjE1Ojg2Mzk0MDQyMzY6MjAyNi0wOS0xOVQxNzowODowNSswMDowMCIsICJ1bmlxdWU6dW5rbm93bjo6MjAyNi0wOC0xM1QxNjoyNzozMiswMDowMCIsICJyZWd1bGFyOjUxNzAxNDUwMTIzMTAwODE2MTU6ODYzOTQwNDIzNjoyMDI2LTA5LTE5VDE3OjA4OjA0KzAwOjAwIl0sICJ1bmF0dHJpYnV0ZWRfdGVsZWdyYW1fZ2lmdHMiOiB7InVuaXF1ZTp1bmtub3duOjoyMDI2LTA5LTE2VDE2OjU5OjM2KzAwOjAwIjogeyJnaWZ0X2lkIjogIlRlbGVncmFtIEdpZnQiLCAidHlwZSI6ICJ1bmlxdWUiLCAic3RhcnMiOiAwLCAidXNkIjogMC4wLCAic2VuZGVyX2lkIjogIiIsICJzZW5kZXJfdXNlcm5hbWUiOiAiIiwgInNlbmRfZGF0ZSI6ICIyMDI2LTA5LTE2VDE2OjU5OjM2KzAwOjAwIn19LCAiZ2lmdF90cmFja2luZ19pbml0aWFsaXplZCI6IHRydWUsICJnYW1lX2hpc3RvcnkiOiB7fSwgInJlZmVycmFsX2RhdGEiOiB7fSwgInJlZmVycmFsX2Vhcm5pbmdzIjoge30sICJwZW5kaW5nX3JlZmVycmFsX2NvbW1pc3Npb25zIjoge30sICJyZWZlcnJhbF93YWdlcl9lYXJuaW5ncyI6IHt9LCAicmVmZXJyYWxfZGVwb3NpdF9lYXJuaW5ncyI6IHt9LCAicmVmZXJyYWxfZGFpbHlfZWFybmluZ3MiOiB7fSwgInJlZmVycmFsX3RvcF9yZWZlcnJlZCI6IHt9LCAicmVmZXJyYWxfY29kZXMiOiB7fSwgImNoYXRfb3duZXJfZ3JvdXBzIjogeyItMTAwNDM5MjU0MDY4MCI6IHsib3duZXJfaWQiOiAiOTExNDQ5MDAiLCAidGl0bGUiOiAiTVx1MWQxY3NcdTAyNmFcdTFkMDQgTFx1MWQwZlx1MDI2Mlx1MDI2Mlx1MWQwN1x1MDI4MCIsICJ1c2VybmFtZSI6ICIiLCAicmVnaXN0ZXJlZF9hdCI6IDE3OTI1OTgxMzguNTU1NjQ1fX0sICJwZW5kaW5nX2NoYWxsZW5nZXMiOiB7fSwgImFjdGl2ZV9wdnBfZ2FtZXMiOiB7fSwgInVzZXJfd2FnZXJpbmdfdG90YWxzIjogeyI4NTk4NzkwOTc3IjogMzcwLjAsICI4ODY2MTcyODM3IjogMTUuMH0sICJ1c2VyX3N0cmVha19kYXRhIjogeyI4NTk4NzkwOTc3IjogeyJzdHJlYWsiOiAwLCAibGFzdF9jaGVja2luIjogIjIwMjYtMDgtMzAiLCAidG9kYXlfd2FnZXJlZCI6IDQwLjAsICJ3YWdlcl9kYXRlIjogIjIwMjYtMTAtMjAifSwgIjg4NjYxNzI4MzciOiB7InN0cmVhayI6IDAsICJsYXN0X2NoZWNraW4iOiAiIiwgInRvZGF5X3dhZ2VyZWQiOiAxNS4wLCAid2FnZXJfZGF0ZSI6ICIyMDI2LTEwLTIxIn19LCAidXNlcl9sZXZlbF9ib251c19jbGFpbWVkIjogeyI4NTk4NzkwOTc3IjogMCwgIjg4NjYxNzI4MzciOiAwfSwgInVzZXJfbG9zc2VzX3Jha2ViYWNrIjogeyI4NTk4NzkwOTc3IjogMC4wMjcwMDAwMDAwMDAwMDAwMDMsICI4ODY2MTcyODM3IjogMC4wMDE1fSwgInVzZXJfbGFzdF9yYWtlYmFja19jbGFpbSI6IHt9LCAidXNlcl9yYWZmbGVfdGlja2V0cyI6IHt9LCAidXNlcl9tYXRjaF9oaXN0b3J5IjogeyI4NTk4NzkwOTc3IjogW3sidGltZXN0YW1wIjogMTc4ODEwNDI3MCwgImlkIjogIjcwNjIzIiwgImdhbWUiOiAia2VubyIsICJiZXQiOiAyMC4wLCAicmVzdWx0IjogIm1lZGl1bV8xX29mXzYiLCAid2lubmluZ3MiOiAwLjAsICJwcm9maXQiOiAtMjAuMH0sIHsidGltZXN0YW1wIjogMTc4ODEwNDc4OCwgImlkIjogIjg4NzYwIiwgImdhbWUiOiAia2VubyIsICJiZXQiOiAyMC4wLCAicmVzdWx0IjogImVhc3lfM19vZl8xMCIsICJ3aW5uaW5ncyI6IDIyLjAsICJwcm9maXQiOiAtMjAuMH0sIHsidGltZXN0YW1wIjogMTc4ODEwNzcxNywgImlkIjogIjE3MTU0IiwgImdhbWUiOiAia2VubyIsICJiZXQiOiAyMC4wLCAicmVzdWx0IjogImNsYXNzaWNfM19vZl8xMCIsICJ3aW5uaW5ncyI6IDAuMCwgInByb2ZpdCI6IC0yMC4wfSwgeyJ0aW1lc3RhbXAiOiAxNzg4MTA4MDc4LCAiaWQiOiAiNzg1MjciLCAiZ2FtZSI6ICJrZW5vIiwgImJldCI6IDEwLjAsICJyZXN1bHQiOiAibWVkaXVtXzNfb2ZfMTAiLCAid2lubmluZ3MiOiAwLjAsICJwcm9maXQiOiAtMTAuMH0sIHsidGltZXN0YW1wIjogMTc4ODEwODM0NywgImlkIjogIjQ3MzAwIiwgImdhbWUiOiAia2VubyIsICJiZXQiOiAyMC4wLCAicmVzdWx0IjogIm1lZGl1bV8yX29mXzEwIiwgIndpbm5pbmdzIjogMC4wLCAicHJvZml0IjogLTIwLjB9LCB7InRpbWVzdGFtcCI6IDE3ODgxMDk1MDYsICJpZCI6ICIwNjc2OCIsICJnYW1lIjogImtlbm8iLCAiYmV0IjogMjAuMCwgInJlc3VsdCI6ICJtZWRpdW1fMl9vZl8xMCIsICJ3aW5uaW5ncyI6IDAuMCwgInByb2ZpdCI6IC0yMC4wfSwgeyJ0aW1lc3RhbXAiOiAxNzg4MTEwMDg1LCAiaWQiOiAiODUwMzEiLCAiZ2FtZSI6ICJrZW5vIiwgImJldCI6IDEwLjAsICJyZXN1bHQiOiAiY2xhc3NpY18zX29mXzEwIiwgIndpbm5pbmdzIjogMC4wLCAicHJvZml0IjogLTEwLjB9LCB7InRpbWVzdGFtcCI6IDE3ODgxMTE3NjEsICJpZCI6ICI2MTMyOSIsICJnYW1lIjogImtlbm8iLCAiYmV0IjogMjAuMCwgInJlc3VsdCI6ICJtZWRpdW1fM19vZl8xMCIsICJ3aW5uaW5ncyI6IDAuMCwgInByb2ZpdCI6IC0yMC4wfSwgeyJ0aW1lc3RhbXAiOiAxNzg4MTI4MzM5LCAiaWQiOiAiMzkzMjEiLCAiZ2FtZSI6ICJkaWNlIiwgImJldCI6IDUwLjAsICJyZXN1bHQiOiAid2luIiwgIndpbm5pbmdzIjogOTYuMCwgInByb2ZpdCI6IDQ2LjB9LCB7InRpbWVzdGFtcCI6IDE3ODgxMjgzNjksICJpZCI6ICI2OTYyOSIsICJnYW1lIjogImRpY2UiLCAiYmV0IjogNTAuMCwgInJlc3VsdCI6ICJsb3NzIiwgIndpbm5pbmdzIjogMCwgInByb2ZpdCI6IC01MC4wfSwgeyJ0aW1lc3RhbXAiOiAxNzg4MTI4NDA5LCAiaWQiOiAiMDk5NzciLCAiZ2FtZSI6ICJrZW5vIiwgImJldCI6IDMwLjAsICJyZXN1bHQiOiAiNV9vZl8xMCIsICJ3aW5uaW5ncyI6IDg0LjAsICJwcm9maXQiOiAtMzAuMH0sIHsidGltZXN0YW1wIjogMTc4ODEyODQzMywgImlkIjogIjMzNzQxIiwgImdhbWUiOiAia2VubyIsICJiZXQiOiAzMC4wLCAicmVzdWx0IjogIjJfb2ZfMTAiLCAid2lubmluZ3MiOiAwLjAsICJwcm9maXQiOiAtMzAuMH0sIHsidGltZXN0YW1wIjogMTc4ODEyODUwNCwgImlkIjogIjA0NDEyIiwgImdhbWUiOiAicHVtcCIsICJiZXQiOiAxMC4wLCAicmVzdWx0IjogImJ1cnN0XzEuNDgiLCAid2lubmluZ3MiOiAwLCAicHJvZml0IjogLTEwLjB9LCB7InRpbWVzdGFtcCI6IDE3ODgxMjg1MjAsICJpZCI6ICIyMDQ2MSIsICJnYW1lIjogInB1bXAiLCAiYmV0IjogMTAuMCwgInJlc3VsdCI6ICJidXJzdF8xLjI4IiwgIndpbm5pbmdzIjogMCwgInByb2ZpdCI6IC0xMC4wfSwgeyJ0aW1lc3RhbXAiOiAxNzg4MTMyNzE4LCAiaWQiOiAiMTg2OTYiLCAiZ2FtZSI6ICJwdW1wIiwgImJldCI6IDEwLjAsICJyZXN1bHQiOiAiYnVyc3RfMS4yOCIsICJ3aW5uaW5ncyI6IDAsICJwcm9maXQiOiAtMTAuMH0sIHsidGltZXN0YW1wIjogMTc5MjQ5NzEwMSwgImlkIjogIjAxMjM2IiwgImdhbWUiOiAiZGljZSIsICJiZXQiOiA0MC4wLCAicmVzdWx0IjogImxvc3MiLCAid2lubmluZ3MiOiAwLCAicHJvZml0IjogLTQwLjB9XSwgIjg4NjYxNzI4MzciOiBbeyJ0aW1lc3RhbXAiOiAxNzkyNTg4MTI2LCAiaWQiOiAiMjY5NzgiLCAiZ2FtZSI6ICJkaWNlIiwgImJldCI6IDE1LjAsICJyZXN1bHQiOiAibG9zcyIsICJ3aW5uaW5ncyI6IDAsICJwcm9maXQiOiAtMTUuMH1dfSwgInVzZXJfd2FnZXJpbmdfcmVxdWlyZW1lbnRzIjogeyI4NTk4NzkwOTc3IjogMC4wLCAiODYzOTQwNDIzNiI6IDE1LjAsICIxMTk2MDI5OTA5IjogMTUuMCwgIjg4NjYxNzI4MzciOiAxNS4wfSwgInVzZXJfYm9udXNfYmFsYW5jZXMiOiB7fSwgInVzZXJfY3J5cHRvX2JvbnVzX2NsYWltcyI6IHsiODU5ODc5MDk3NyI6IHsiY2xhaW1lZF9hdCI6IDE3ODgxMjg0NDkuMjM5NjM4OCwgImRlcG9zaXRfdG90YWwiOiA2NjYuMCwgImJvbnVzX2Ftb3VudCI6IDE5Ljk4LCAicmF0ZSI6IDAuMDN9fSwgImJvbnVzX2NvZGVzIjoge30sICJtYW5hZ2VyX2lkcyI6IFtdLCAidXNlcl9jbGFpbWVkX2NvZGVzIjoge30sICJ1c2VyX2JvbnVzX3dhZ2VyX2RhdGEiOiB7fSwgInVzZXJfcGVuZGluZ19ib251c19jbGFpbXMiOiB7fSwgInVzZXJfZGVwb3NpdF90b3RhbHMiOiB7Ijg1OTg3OTA5NzciOiA2NjYuMCwgIjg2Mzk0MDQyMzYiOiAxLjYwNzE0Mjg1NzE0Mjg1NzIsICIxMTk2MDI5OTA5IjogMC4xNzg1NzE0Mjg1NzE0Mjg1NSwgIjg4NjYxNzI4MzciOiAyMTIuMzgxMDIzMjR9LCAidXNlcl9kZXBvc2l0X2hpc3RvcnkiOiB7Ijg1OTg3OTA5NzciOiBbeyJ0cyI6IDE3ODgxMDQyMjIuMzczMzI5MiwgImFtb3VudCI6IDY2Ni4wLCAiY3VycmVuY3kiOiAiQURNSU4iLCAic291cmNlIjogImFkbWluX2JvdGRlcG8iLCAidHhpZCI6ICJiZDQyMTkifV0sICI4NjM5NDA0MjM2IjogW3sidHMiOiAxNzkyNDU5MjM0LjMwMTkxMzUsICJhbW91bnQiOiAwLjE3ODU3MTQyODU3MTQyODU1LCAiY3VycmVuY3kiOiAiVEVMRUdSQU1fR0lGVCIsICJzb3VyY2UiOiAidGVsZWdyYW1fZ2lmdCJ9LCB7InRzIjogMTc5MjQ1OTIzOS40NDE1MjQ1LCAiYW1vdW50IjogMC4xNzg1NzE0Mjg1NzE0Mjg1NSwgImN1cnJlbmN5IjogIlRFTEVHUkFNX0dJRlQiLCAic291cmNlIjogInRlbGVncmFtX2dpZnQifSwgeyJ0cyI6IDE3OTI0NTkyNDQuNjM0MjA0LCAiYW1vdW50IjogMC4yOTc2MTkwNDc2MTkwNDc2LCAiY3VycmVuY3kiOiAiVEVMRUdSQU1fR0lGVCIsICJzb3VyY2UiOiAidGVsZWdyYW1fZ2lmdCJ9LCB7InRzIjogMTc5MjQ1OTI0OS45NTcxMzgsICJhbW91bnQiOiAwLjE3ODU3MTQyODU3MTQyODU1LCAiY3VycmVuY3kiOiAiVEVMRUdSQU1fR0lGVCIsICJzb3VyY2UiOiAidGVsZWdyYW1fZ2lmdCJ9LCB7InRzIjogMTc5MjQ1OTI1NS4wNjg0Nzk1LCAiYW1vdW50IjogMC4xNzg1NzE0Mjg1NzE0Mjg1NSwgImN1cnJlbmN5IjogIlRFTEVHUkFNX0dJRlQiLCAic291cmNlIjogInRlbGVncmFtX2dpZnQifSwgeyJ0cyI6IDE3OTI0NTkyNjAuMTExNzE5NCwgImFtb3VudCI6IDAuNTk1MjM4MDk1MjM4MDk1MiwgImN1cnJlbmN5IjogIlRFTEVHUkFNX0dJRlQiLCAic291cmNlIjogInRlbGVncmFtX2dpZnQifV0sICIxMTk2MDI5OTA5IjogW3sidHMiOiAxNzkyNDU5MjY1LjMzMjIzNDksICJhbW91bnQiOiAwLjE3ODU3MTQyODU3MTQyODU1LCAiY3VycmVuY3kiOiAiVEVMRUdSQU1fR0lGVCIsICJzb3VyY2UiOiAidGVsZWdyYW1fZ2lmdCJ9XSwgIjg4NjYxNzI4MzciOiBbeyJ0cyI6IDE3OTI0NjA4MDIuNTMxNCwgImFtb3VudCI6IDEyLjM4MTAyMzI0LCAiY3VycmVuY3kiOiAiU09MIiwgInNvdXJjZSI6ICJub3dwYXltZW50c19leGFjdF9wb2xsIn0sIHsidHMiOiAxNzkyNDYxNjM0LjkzODUwMTEsICJhbW91bnQiOiAyMDAuMCwgImN1cnJlbmN5IjogIkFETUlOIiwgInNvdXJjZSI6ICJhZG1pbl9ib3RkZXBvIiwgInR4aWQiOiAiYmQ2MTYzMiJ9XX0sICJ1c2VyX2xhc3RfZGVwb3NpdF90cyI6IHsiODU5ODc5MDk3NyI6IDE3ODgxMDQyMjIuMzczMzg3OCwgIjg2Mzk0MDQyMzYiOiAxNzkyNDU5MjYwLjExNjM4NCwgIjExOTYwMjk5MDkiOiAxNzkyNDU5MjY1LjMzNjIyMSwgIjg4NjYxNzI4MzciOiAxNzkyNDYxNjM0LjkzODUyMTl9LCAidXNlcl90aXBfcmVjZWl2ZWQiOiB7IjkxMTQ0OTAwIjogdHJ1ZX0sICJ1c2VyX2NsaWVudF9zZWVkcyI6IHt9LCAidXNlcl90cmFuc2Zlcl9jb2RlcyI6IHt9LCAiX3BlbmRpbmdfdGlwcyI6IHt9LCAiaG91c2VfYmFsYW5jZSI6IDE1OTIuMTY2NzM3NTI1NzEzOSwgImNyeXB0b19ob3VzZV9iYWxhbmNlcyI6IHsiVVNEVCI6IDE1OTIuMTY2NzM3NTI1NzEzOX0sICJ1c2VyX2NyeXB0b19kZXBvc2l0cyI6IHt9LCAidXNlcl9jcnlwdG9fYWRkcmVzc2VzIjoge30sICJwZW5kaW5nX2NyeXB0b19kZXBvc2l0cyI6IHt9LCAicGVuZGluZ19jcnlwdG9fd2l0aGRyYXdhbHMiOiB7fSwgIm5vd3BheW1lbnRzX3BlbmRpbmdfZGVwb3NpdHMiOiB7IjQ5MTgwNTA0ODkiOiB7InVzZXJfaWQiOiAiODU5ODc5MDk3NyIsICJ1c2VybmFtZSI6ICJhcnNoeHkiLCAiY3J5cHRvIjogInNvbCIsICJwYXlfY3VycmVuY3kiOiAic29sIiwgIm5ldHdvcmsiOiAic29sIiwgIm9yZGVyX2lkIjogImRlcF84NTk4NzkwOTc3XzE3OTI0NTk1ODYiLCAicGF5bWVudF9pZCI6ICI0OTE4MDUwNDg5IiwgInBheV9hZGRyZXNzIjogIjY1YnlndllOZHZTNnBvR0t6QVJNOXBGQWZpQ3NXbWtHNVFMTmFadXlZQmMxIiwgImV4cGVjdGVkX2NvaW5fYW1vdW50IjogMC4wOTU5MDk4NiwgImFtb3VudF91c2QiOiAxMC4wLCAiY3JlYXRlZF9hdCI6IDE3OTI0NTk1ODcuMCwgImV4cGlyZXNfYXQiOiAxNzkyNDYzMTg3LjAsICJuZXh0X3BvbGxfYXQiOiAxNzkyNDYxNzcwLjUxNjIyOTQsICJwb2xsX2ZhaWx1cmVzIjogMSwgInN0YXR1cyI6ICJleHBpcmVkIiwgInN0YXRlIjogIldBSVRJTkdfRk9SX1BBWU1FTlQiLCAibGFzdF9lcnJvciI6ICIiLCAibGFzdF9zdGF0dXMiOiAid2FpdGluZyIsICJsYXN0X3N0YXR1c19hdCI6IDE3OTI0NTk1OTAuNjYxNTk0NCwgImV4cGlyZWRfYXQiOiAxNzkyNDg5ODc1LjIxMDk4OTd9LCAiNTI1NDczMjQ2MiI6IHsidXNlcl9pZCI6ICI4ODY2MTcyODM3IiwgInVzZXJuYW1lIjogIiIsICJjcnlwdG8iOiAic29sIiwgInBheV9jdXJyZW5jeSI6ICJzb2wiLCAibmV0d29yayI6ICJzb2wiLCAib3JkZXJfaWQiOiAiZGVwXzg4NjYxNzI4MzdfMTc5MjQ2MDM1OSIsICJwYXltZW50X2lkIjogIjUyNTQ3MzI0NjIiLCAicGF5X2FkZHJlc3MiOiAiNzZDbm5zeHZ2Mlo0VUU1NU5tbmJMVWFzYjlQeGRoRmRVckROUkZUdkJTYnoiLCAiZXhwZWN0ZWRfY29pbl9hbW91bnQiOiAwLjA5NTU1ODM2LCAiYW1vdW50X3VzZCI6IDEwLjAsICJjcmVhdGVkX2F0IjogMTc5MjQ2MDM1OS4wLCAiZXhwaXJlc19hdCI6IDE3OTI0NjM5NTkuMCwgIm5leHRfcG9sbF9hdCI6IDE3OTI0NjE3NzAuNTE2MjI5NCwgInBvbGxfZmFpbHVyZXMiOiAxLCAic3RhdHVzIjogImV4cGlyZWQiLCAic3RhdGUiOiAiV0FJVElOR19GT1JfUEFZTUVOVCIsICJsYXN0X2Vycm9yIjogIiIsICJsYXN0X3N0YXR1cyI6ICJ3YWl0aW5nIiwgImxhc3Rfc3RhdHVzX2F0IjogMTc5MjQ2MDM2NS4yMTQ4MjUyLCAiZXhwaXJlZF9hdCI6IDE3OTI0ODk4NzUuMjEwOTg5N30sICI1MDk2NjY3NzU2IjogeyJ1c2VyX2lkIjogIjg4NjYxNzI4MzciLCAidXNlcm5hbWUiOiAiIiwgImNyeXB0byI6ICJzb2wiLCAicGF5X2N1cnJlbmN5IjogInNvbCIsICJuZXR3b3JrIjogInNvbCIsICJvcmRlcl9pZCI6ICJkZXBfODg2NjE3MjgzN18xNzkyNDYwMzYxIiwgInBheW1lbnRfaWQiOiAiNTA5NjY2Nzc1NiIsICJwYXlfYWRkcmVzcyI6ICJDa3dHeXhzNWJDeW9EV1lXMlBGYnB5NUpYeUxSUllzUzNGYmhiU3lLMkVBUSIsICJleHBlY3RlZF9jb2luX2Ftb3VudCI6IDAuMDk1NTU4MzYsICJhbW91bnRfdXNkIjogMTAuMCwgImNyZWF0ZWRfYXQiOiAxNzkyNDYwMzYxLjAsICJleHBpcmVzX2F0IjogMTc5MjQ2Mzk2MS4wLCAibmV4dF9wb2xsX2F0IjogMTc5MjQ2MDgxNS4yMTI5NjQ4LCAicG9sbF9mYWlsdXJlcyI6IDAsICJzdGF0dXMiOiAiY3JlZGl0ZWQiLCAic3RhdGUiOiAiQ1JFRElURUQiLCAibGFzdF9lcnJvciI6ICIiLCAibGFzdF9zdGF0dXMiOiAiZmluaXNoZWQiLCAibGFzdF9zdGF0dXNfYXQiOiAxNzkyNDYwODAwLjIxMjk2NDgsICJkZXRlY3RlZF9hdCI6IDE3OTI0NjA4MDAuMjEyOTY0OCwgInByb2Nlc3NpbmdfY3VycmVuY3kiOiAiU09MIiwgImRldGVjdGVkX2NvaW5fYW1vdW50IjogMC4xMTg0MjIwMywgImRldGVjdGVkX3R4aWQiOiAiNHUzQ3dVRlI3ZERHSHhFU3lRUWJwVUt3am5kZXlpQVF3dFFIOHFiMzlBQTZjcjQxU2dxMlg1UU43UmFRd1Q4ZWFFcW1hQmNORXZpZTF0UmRWN2d6RnVoRSIsICJwcm9jZXNzaW5nX25vdGlmaWVkX2F0IjogMTc5MjQ2MDgwMi41MjgwNzE0LCAiY3JlZGl0ZWRfYXQiOiAxNzkyNDYwODA0LjEwNjEyMzQsICJjb25maXJtYXRpb25fbm90aWZpY2F0aW9uIjogeyJ1c2RfYW1vdW50IjogMTIuMzgxMDIzMjQsICJmZWVfYW1vdW50IjogMC4wLCAicGF5X2N1cnJlbmN5IjogIlNPTCIsICJjb2luX2Ftb3VudCI6IDAuMTE4NDIyMDMsICJ0eGlkIjogIjR1M0N3VUZSN2RER0h4RVN5UVFicFVLd2puZGV5aUFRd3RRSDhxYjM5QUE2Y3I0MVNncTJYNVFON1JhUXdUOGVhRXFtYUJjTkV2aWUxdFJkVjdnekZ1aEUiLCAibmV0d29yayI6ICJzb2wiLCAidXNlcm5hbWUiOiAiIiwgImJvbnVzX21zZyI6IG51bGx9LCAiY29uZmlybWF0aW9uX25vdGlmaWVkX2F0IjogMTc5MjQ2MDgwNC4xMDU2MjV9LCAiNTIzOTY0MDE5NiI6IHsidXNlcl9pZCI6ICI4NTk4NzkwOTc3IiwgInVzZXJuYW1lIjogImFyc2h4eSIsICJjcnlwdG8iOiAiYnRjIiwgInBheV9jdXJyZW5jeSI6ICJidGMiLCAibmV0d29yayI6ICJidGMiLCAib3JkZXJfaWQiOiAiZGVwXzg1OTg3OTA5NzdfMTc5MjUwMTI3MCIsICJwYXltZW50X2lkIjogIjUyMzk2NDAxOTYiLCAicGF5X2FkZHJlc3MiOiAiM0NWYWpNZlVjaWdwa2NUQVREdFpvZlBCNkVnYUNtQ21OMSIsICJleHBlY3RlZF9jb2luX2Ftb3VudCI6IDAuMDAwMTIyNjEsICJhbW91bnRfdXNkIjogMTAuMCwgImNyZWF0ZWRfYXQiOiAxNzkyNTAxMjcwLjAsICJleHBpcmVzX2F0IjogMTc5MjUwNDg3MC4wLCAibmV4dF9wb2xsX2F0IjogMTc5MjUwMjA0OS44MzA5NTgsICJwb2xsX2ZhaWx1cmVzIjogMSwgInN0YXR1cyI6ICJleHBpcmVkIiwgInN0YXRlIjogIldBSVRJTkdfRk9SX1BBWU1FTlQiLCAibGFzdF9lcnJvciI6ICIiLCAibGFzdF9zdGF0dXMiOiAid2FpdGluZyIsICJsYXN0X3N0YXR1c19hdCI6IDE3OTI1MDEyNzQuOTk4NjgwNCwgImV4cGlyZWRfYXQiOiAxNzkyNTg1NjQyLjQwNzgxNX19LCAibm93cGF5bWVudHNfcGVuZGluZ193aXRoZHJhd2FscyI6IHt9LCAicHJvY2Vzc2VkX3BheW1lbnRfaWRzIjogWyJnaWZ0X3JlZ3VsYXI6NTE3MDE0NTAxMjMxMDA4MTYxNTo4NjM5NDA0MjM2OjIwMjYtMDktMTlUMTc6MDg6MDUrMDA6MDAiLCAiYmQ2MTYzMiIsICJnaWZ0X3JlZ3VsYXI6NTE3MDE0NDE3MDQ5NjQ5MTYxNjo4NjM5NDA0MjM2OjIwMjYtMDktMTlUMTc6MDg6MDIrMDA6MDAiLCAiZ2lmdF9yZWd1bGFyOjUxNzAyNTA5NDc2Nzg0Mzc1MjU6ODYzOTQwNDIzNjoyMDI2LTA5LTI3VDE4OjExOjQ5KzAwOjAwIiwgImdpZnRfcmVndWxhcjo1MTcwMTQ1MDEyMzEwMDgxNjE1Ojg2Mzk0MDQyMzY6MjAyNi0wOS0xOVQxNzowODowNCswMDowMCIsICI1MDk2NjY3NzU2IiwgImdpZnRfcmVndWxhcjo1MTcwMTQ1MDEyMzEwMDgxNjE1Ojg2Mzk0MDQyMzY6MjAyNi0wOS0yN1QxODoxMTo1MSswMDowMCIsICJnaWZ0X3JlZ3VsYXI6NTE3MDIzMzEwMjA4OTMyMjc1Njo4NjM5NDA0MjM2OjIwMjYtMDktMjdUMTg6MTE6NTIrMDA6MDAiLCAiZ2lmdF9yZWd1bGFyOjUxNzAxNDUwMTIzMTAwODE2MTU6MTE5NjAyOTkwOToyMDI2LTA5LTAxVDExOjA0OjMxKzAwOjAwIiwgImJkNDIxOSJdLCAicHJvY2Vzc2VkX2RlcG9zaXRfdHhpZHMiOiBbIjR1M0N3VUZSN2RER0h4RVN5UVFicFVLd2puZGV5aUFRd3RRSDhxYjM5QUE2Y3I0MVNncTJYNVFON1JhUXdUOGVhRXFtYUJjTkV2aWUxdFJkVjdnekZ1aEUiXSwgImNyeXB0b19zb3VyY2VzIjoge30sICJzdHVja19kZXBvc2l0X3JlcG9ydHMiOiB7fSwgImNvaW5mbGlwX3N0aWNrZXJzIjogeyJidGMiOiAiQ0FBQ0FnUUFBeGtCQUFJRnNXamlFVkFqX1kyOElJTEQxY01uRi1KU2RfdmtBQUtOR2dBQ1RQNXdVYWRqalUtQjh5dXNOZ1EiLCAiZXRoIjogIkNBQUNBZ1FBQXhrQkFBSUZzV2ppRVZBal9ZMjhJSUxEMWNNbkYtSlNkX3ZrQUFLTkdnQUNUUDV3VWFkampVLUI4eXVzTmdRIiwgImhlYWRzIjogbnVsbCwgInRhaWxzIjogbnVsbH0sICJyb2xsZXJzX3JvdWxldHRlX3N0aWNrZXJzIjogeyJwYWNrX25hbWUiOiAicm9sbGVyc19yb3VsbGV0ZV9ieV9yb2xsZXJzZ2FtZWJvdCIsICJ0aXRsZSI6ICJSb2xsZXJzIFJvdWxsZXRlIEJ5IEByb2xsZXJzY2FzaW5vIiwgImlzX2FuaW1hdGVkIjogZmFsc2UsICJzdGlja2VycyI6IFt7ImZpbGVfaWQiOiAiQ0FBQ0FnVUFBeFVBQVdxRngzWjJSbWVVQ3FUNUNnWnJZc2VuQUFIWWtBQUNwQ0lBQXBTMklGUkt6MjJyeDNNa0VEMEUifSwgeyJmaWxlX2lkIjogIkNBQUNBZ1VBQXhVQUFXcUZ4M2FiZnlodnNlczAzTFlyQ1dMSjR5OG1BQUotSFFBQ2hEY29WSFlaQUFIN2N2b0ZNVDBFIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaZHRzWjE2bVljMHJEcDE2ZmpmejVnQUFKYUh3QUNENk1nVkdNejF6czQ1a0o0UFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhVEtzSkpTdmJmazlTdVR1eTlqVWg4QUFJc0t3QUNCSzBwVkFkZ1RYRzZjbjR1UFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaMDd5aWpqTWNwVzVMbU5OMmQzMnJSQUFLY0l3QUNxNThvVkVZY0IwU1V0TTJnUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaMFU3eTVlVlQ4Mmw5cUFsNEpDemZwQUFJMEhnQUNtZHNvVkhGdklQSkJtMmpDUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaYVVzaWNJLVdWVEpweFQxVHNadXprQUFKcUlBQUNWUlFwVkliOXd0SHlxdDV2UFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiRk5PVkZXd1E1d1pFNmxIT3B2ODVuQUFMWElRQUN0V3NwVkpJeEFURTRzQUc5UFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNZMGs1bjNSQ1A0M3JjQ05DR0VpUmRPQUFJaEl3QUM5b2dnVk90bWYzYTNOV0RVUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhYmpsTENPSkg0M1FOMWU3aTduSDkzQUFMQklnQUNEWEVvVkdZamxHd0N5RzVQUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNZNzJZU1AyYi1ybTFzdE1ER2pPODJSQUFJYUh3QUNfNmdwVktTamZGVnlZd2NZUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNZR2VnNl9JX3Mta2NyVDJCcU1UdnBUQUFKZ0tBQUNBbWdoVkZsQVRrUkF6SFVwUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiTVcwTWl6Y1NzU3E5LUJVZFRkNjlzQUFJVUpnQUNndUlnVktCVGROVXRIRDNKUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhanJZWTU5d19YalA3UTRNS1J6eEowQUFLdUh3QUNyeGtwVktHdDgyZ1dkRHFfUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiR2lJYzhmMEZQRUh5dHJ3WnNfend1QUFJbEtnQUNIeGNvVkhnNlV3a0ZObjhxUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhN21BSFZVLTBjb0QzZ2dvb09XOHZDQUFKaEh3QUNYY3NvVkZZRHhoei1SS25hUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhbHVvVDJYOHBKSjU0SWEyYU5tS1FDQUFJbElBQUNYbHNvVkNhSVlVa055NjFlUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaX0h2cG1mUTY0NWFZZ1JlWklCb0M4QUFKN0pRQUN6T0FvVlBoNDFsT0s5bjhFUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNaZDZ0MlFxcEtDQjVkdmdvdWhzc0NtQUFKZEpBQUMtQXdvVkhpQU0wWFpqUkRIUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiVWlBT01lSHJqOVVYazhZV1g3QzVyQUFMUklBQUNEaDBwVkEta3pJLW03WjRZUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiMl9WNWtHekEzRWlOdktZb1NXZWVKQUFLMkh3QUNGV2dnVk8yOHIzOE9oVTctUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhOEUzYnFWbnRLNDNIWWpkdTZreHpCQUFKZEpBQUNidllwVkZDWjVmZVNMWkNCUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiRUZHeFZTS0cwMUEwS2JUeDMtQzNKQUFLN0pBQUM4Zm9vVk4ta3prYTJfdXVBUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNiaFVmV2I2RmJmRjNzUDRjZGlTUjlFQUFKLUlRQUNFRFVnVkhvV2NudVZMR0M0UFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNhdFlqaWFCazYwdzlQUW9YQ3phNWF4QUFKYUl3QUNXYjRvVk5IXzdoQkZ6aHRMUFFRIn0sIHsiZmlsZV9pZCI6ICJDQUFDQWdVQUF4VUFBV3FGeDNabzM0R3VjeU8ybTVNMlRQQlZ4MnJDQUFMdEpBQUNXYzRnVkF1bmVDWEZTck9FUFFRIn1dfSwgImJhbm5lZF91c2VycyI6IHt9LCAidXNlcl9zYXZlZF93aXRoZHJhd2FsX2FkZHJlc3NlcyI6IHt9LCAicGVuZGluZ19jY3RpcF9yZXF1ZXN0cyI6IHt9LCAiZGlzYWJsZWRfZ2FtZXMiOiBbXSwgImNhc2lub19tYWludGVuYW5jZV9tb2RlIjogZmFsc2UsICJwcm9maXRfdHJhY2tpbmciOiB7ImRhaWx5Ijoge30sICJ3ZWVrbHkiOiB7fSwgIm1vbnRobHkiOiB7fSwgInRvdGFsX2RlcG9zaXRzIjogMCwgInRvdGFsX3dpdGhkcmF3YWxzIjogMCwgInRvdGFsX2hvdXNlX3Byb2ZpdCI6IDAsICJ0b3RhbF9nYW1lc19wbGF5ZWQiOiAwfSwgInZpcF91c2VycyI6IHt9LCAidXNlcl9pbnRlbCI6IHt9LCAibW9kX3doaXRlbGlzdCI6IFtdLCAibW9kX2FjdGlvbnNfbG9nIjogW10sICJfYWN0aXZlX3JhY2UiOiB7fSwgIl9yYWNlX3dhZ2VyaW5nIjoge30sICJfcmFjZV91c2VybmFtZXMiOiB7fSwgIl9hY3RpdmVfcmFmZmxlIjoge30sICJfcmFmZmxlX3N0YXJ0X3dhZ2VyIjoge30sICJ1c2VyX3JhZmZsZV93YWdlcmluZyI6IHsiODU5ODc5MDk3NyI6IDM3MC4wLCAiODg2NjE3MjgzNyI6IDE1LjB9LCAibGFzdF9zYXZlX3RpbWVzdGFtcCI6IDE3OTI2MjUyNTkuMzkzODU3NSwgInNhdmVfY291bnQiOiAxLCAiX2V2ZW50cyI6IHsiZGVwb3NpdF9ib251c2VzIjoge30sICJkZXBvc2l0X3JhY2UiOiB7fSwgImNhc2hiYWNrX2V2ZW50cyI6IHt9LCAic3RhdHMiOiB7InRvdGFsX2JvbnVzZXNfcGFpZCI6IDAuMCwgInRvdGFsX2Nhc2hiYWNrX3BhaWQiOiAwLjAsICJ0b3RhbF9yYWNlX3ByaXplcyI6IDAuMH19fQ=="
+}

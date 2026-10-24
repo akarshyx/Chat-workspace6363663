@@ -1,0 +1,3 @@
+- [Deposit notification invariants](deposit-notification-invariants.md) — preserve gross USD through settlement; derive fee-adjusted credit only in the renderer.
+- [Telegram message style](referral-emoji-style.md) — use screenshot-matched premium emojis and omit promotional previews from game results.
+- [Bot availability](bot-availability.md) — keep the Telegram bot running during updates; get approval before any restart that could interrupt it.

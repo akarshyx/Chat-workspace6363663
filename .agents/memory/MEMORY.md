@@ -1,0 +1,2 @@
+- [Filtered installs around package firewall blocks](filtered-pnpm-firewall.md) — when a nested app installs fine alone, filter its workspace instead of changing unrelated locked dependencies.
+- [Telegram casino product scope](telegram-casino-scope.md) — the product is a Telegram chat casino; treat the bot as primary and don't assume a web casino is wanted.

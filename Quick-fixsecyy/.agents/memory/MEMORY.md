@@ -1,0 +1,1 @@
+- [Nested artifact workflows](artifact-workflow-cwd.md) — artifact-owned launch commands run from the artifact directory, so calculate relative paths from there.
