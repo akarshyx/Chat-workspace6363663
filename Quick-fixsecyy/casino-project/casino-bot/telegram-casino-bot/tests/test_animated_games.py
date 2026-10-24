@@ -146,6 +146,31 @@ class AnimatedGameReliabilityTests(unittest.TestCase):
             "a failed request must not be replayed through another bot",
         )
 
+    def test_missing_group_dealer_uses_main_bot(self):
+        original_dealers = dict(main.dealer_bots)
+        main.dealer_bots.update(
+            {"dealer_1": None, "dealer_2": None, "dealer_3": None}
+        )
+        main_bot = _FakeDiceBot("main")
+
+        try:
+            result = asyncio.run(
+                main.dealer_send_dice(
+                    chat_id=-100123,
+                    emoji="🎲",
+                    main_bot=main_bot,
+                    chat_type="supergroup",
+                    dealer_name="dealer_1",
+                )
+            )
+        finally:
+            main.dealer_bots.clear()
+            main.dealer_bots.update(original_dealers)
+
+        self.assertIsNotNone(result)
+        self.assertEqual(result.dice.value, 4)
+        self.assertEqual(main_bot.calls, [(-100123, "🎲")])
+
     def test_visible_dice_serializes_same_chat_but_not_other_chats(self):
         async def scenario():
             original_interval = main._DICE_CHAT_MIN_INTERVAL_SECONDS

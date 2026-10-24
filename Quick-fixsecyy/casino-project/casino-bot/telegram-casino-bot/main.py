@@ -23694,7 +23694,29 @@ async def dealer_send_dice(chat_id: int, emoji: str = "🎲", main_bot=None, cha
         return None
 
     # In group chats, use the dealer bot (reuse existing instance — no new connections)
-    if target_bot and str(target_bot.token) != str(main_bot.token if main_bot else ""):
+    if not target_bot or str(target_bot.token) == str(main_bot.token if main_bot else ""):
+        # Dealer bots are optional. When one is not configured, use the main
+        # bot that is already handling the casino chat. Do not use this fallback
+        # after a dealer request fails: Telegram may have accepted that roll.
+        if not main_bot:
+            logger.error("❌ No dealer bot or main bot available for group dice")
+            return None
+        try:
+            result = await asyncio.wait_for(
+                main_bot.send_dice(chat_id=chat_id, emoji=emoji_str),
+                timeout=15.0,
+            )
+            if result:
+                logger.info(f"✅ Main bot sent fallback dice {emoji_str} to group {chat_id}")
+                return result
+            logger.error("❌ Main bot group dice send returned no message")
+        except asyncio.TimeoutError:
+            logger.error("❌ Main bot dice animation timed out in group fallback")
+        except Exception as e:
+            logger.error(f"❌ Main bot group dice fallback error: {e}")
+        return None
+
+    if target_bot:
         try:
             result = await asyncio.wait_for(
                 target_bot.send_dice(chat_id=chat_id, emoji=emoji_str),
