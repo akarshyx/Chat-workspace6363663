@@ -1,19 +1,19 @@
 {
-  "timestamp": 1792894245.4981728,
-  "export_date": "Sun Oct 25 02:10:45 2026",
+  "timestamp": 1792897048.0644,
+  "export_date": "Sun Oct 25 02:57:28 2026",
   "total_users": 24,
   "user_balances": {
-    "8598790977": 0.0,
+    "8598790977": 1747.0,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
-    "8619212375": 174.63,
+    "8619212375": 100.63,
     "8750866470": 0.0,
     "8851859565": 0.0,
     "8670909576": 0.0,
     "7830105011": 0.0,
     "91144900": 10.0,
-    "8522381582": 0.0,
+    "8522381582": 67.73,
     "8815653561": 0.0,
     "8628599958": 0.0,
     "8788040313": 0.0,
@@ -34,12 +34,12 @@
       "username": "arshxy",
       "first_name": "#1",
       "currency": "USD",
-      "lt_games": 24,
-      "lt_wins": 4,
-      "lt_won": 744.77,
-      "lt_wagered": 1520.75,
+      "lt_games": 26,
+      "lt_wins": 5,
+      "lt_won": 864.77,
+      "lt_wagered": 1640.75,
       "lt_first_game_ts": 1788104270,
-      "lt_last_game_ts": 1792893779
+      "lt_last_game_ts": 1792895191
     },
     "8750866470": {
       "joined_at": 1792490944.2122183,
@@ -166,7 +166,7 @@
   },
   "user_levels": {},
   "user_wagering_totals": {
-    "8598790977": 1520.75,
+    "8598790977": 1760.75,
     "8866172837": 15.0,
     "8815653561": 60.59919118,
     "8853165638": 29.04,
@@ -390,6 +390,24 @@
         "result": "loss",
         "winnings": 0,
         "profit": -202.85
+      },
+      {
+        "timestamp": 1792895184,
+        "id": "84336",
+        "game": "rps",
+        "bet": 60.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -60.0
+      },
+      {
+        "timestamp": 1792895191,
+        "id": "91884",
+        "game": "rps",
+        "bet": 60.0,
+        "result": "win",
+        "winnings": 120.0,
+        "profit": 60.0
       }
     ],
     "8866172837": [
@@ -672,9 +690,43 @@
       "created_at": 1792893405.1190412
     }
   },
-  "active_games": {},
+  "active_games": {
+    "8619212375": {
+      "_created_at": 1792896354.9513633,
+      "type": "sports_dice_bot",
+      "game_name": "dice",
+      "username": "ex",
+      "emoji": "\ud83c\udfb2",
+      "dice_emoji": "\ud83c\udfb2",
+      "bot_last_total": 0,
+      "wins_needed": 2,
+      "rolls": 3,
+      "bet_amount": 74.0,
+      "player_wins": 1,
+      "bot_wins": 1,
+      "round": 3,
+      "state": "waiting_player_roll",
+      "player_round_rolls": 2,
+      "player_round_total": 10,
+      "bot_round_rolls": 3,
+      "bot_round_total": 8,
+      "chat_id": -1003904838875,
+      "chat_type": "supergroup",
+      "last_active": 1792896354.951367,
+      "created_at": 1792896354.9513671,
+      "start_msg_id": 1135,
+      "start_msg_chat_id": -1003904838875,
+      "is_crazy": false,
+      "bot_rolling_active": false,
+      "_roll_generation": 3,
+      "bot_has_rolled": true,
+      "auto_rolling_player": false,
+      "current_cashout": 29.6,
+      "last_roll_time": 0
+    }
+  },
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 7159.6
+    "USDT": 5094.0
   }
 }
