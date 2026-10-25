@@ -1,13 +1,13 @@
 {
-  "timestamp": 1792890266.5864398,
-  "export_date": "Sun Oct 25 01:04:26 2026",
-  "total_users": 21,
+  "timestamp": 1792891879.938243,
+  "export_date": "Sun Oct 25 01:31:19 2026",
+  "total_users": 22,
   "user_balances": {
     "8598790977": 501.98,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
-    "8619212375": 185.63,
+    "8619212375": 174.63,
     "8750866470": 0.0,
     "8851859565": 0.0,
     "8670909576": 0.0,
@@ -23,7 +23,8 @@
     "8843548831": 0.0,
     "1272891832": 134.0,
     "8825103057": 5.0,
-    "8853165638": 0.0
+    "8853165638": 0.0,
+    "8781134004": 0.0
   },
   "user_profiles": {
     "8598790977": {
@@ -119,12 +120,12 @@
       "joined": 1792888636,
       "joined_at": 1792888657.7753918,
       "currency": "USD",
-      "lt_games": 2,
-      "lt_wins": 2,
-      "lt_won": 11.52,
-      "lt_wagered": 6.0,
+      "lt_games": 5,
+      "lt_wins": 4,
+      "lt_won": 24.04,
+      "lt_wagered": 18.52,
       "lt_first_game_ts": 1792888851,
-      "lt_last_game_ts": 1792888984
+      "lt_last_game_ts": 1792891351
     },
     "8619212375": {
       "lt_games": 1,
@@ -140,7 +141,7 @@
     "8598790977": 370.0,
     "8866172837": 15.0,
     "8815653561": 41.59919118,
-    "8853165638": 6.0,
+    "8853165638": 18.52,
     "8619212375": 25.0
   },
   "user_match_history": {
@@ -456,6 +457,33 @@
         "result": "win",
         "winnings": 1.92,
         "profit": 0.9199999999999999
+      },
+      {
+        "timestamp": 1792891248,
+        "id": "48793",
+        "game": "dice",
+        "bet": 6.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -6.0
+      },
+      {
+        "timestamp": 1792891309,
+        "id": "09443",
+        "game": "bowling",
+        "bet": 4.52,
+        "result": "win",
+        "winnings": 8.68,
+        "profit": 4.16
+      },
+      {
+        "timestamp": 1792891351,
+        "id": "51367",
+        "game": "bowling",
+        "bet": 2.0,
+        "result": "win",
+        "winnings": 3.84,
+        "profit": 1.8399999999999999
       }
     ],
     "8619212375": [
@@ -475,21 +503,21 @@
   "user_raffle_tickets": {},
   "pending_deposits": {},
   "pending_withdrawals": {
-    "npw_8853165638_1792889033": {
+    "npw_8853165638_1792891383": {
       "user_id": "8853165638",
       "username": "x",
       "telegram_username": "xcxvxzxcxvxz",
       "amount_usd": 10.52,
-      "crypto": "ltc",
-      "display_name": "Litecoin (LTC)",
-      "wallet_address": "ltc1qq9crec0vmzhsgvaw54nr4pjd3e6dkzajqaqzy3",
+      "crypto": "sol",
+      "display_name": "Solana (SOL)",
+      "wallet_address": "F4rPeQu9yiev3Ew8ratesVX2UJXEo9yV79vPZ4NmpVhC",
       "status": "pending",
-      "created_at": 1792889033.332837
+      "created_at": 1792891383.3059223
     }
   },
   "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1606.3443110657138
+    "USDT": 1618.8643110657138
   }
 }
