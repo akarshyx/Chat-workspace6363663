@@ -1,12 +1,12 @@
 {
-  "timestamp": 1792905269.996439,
-  "export_date": "Sun Oct 25 05:14:29 2026",
+  "timestamp": 1792905600.8203263,
+  "export_date": "Sun Oct 25 05:20:00 2026",
   "total_users": 24,
   "user_balances": {
     "8598790977": 1747.0,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
-    "8866172837": 197.38102324,
+    "8866172837": 167.38,
     "8619212375": 174.63,
     "8750866470": 0.0,
     "8851859565": 0.0,
@@ -48,12 +48,12 @@
       "currency": "USD"
     },
     "8866172837": {
-      "lt_games": 1,
-      "lt_wins": 0,
-      "lt_won": 0.0,
-      "lt_wagered": 15.0,
+      "lt_games": 3,
+      "lt_wins": 1,
+      "lt_won": 20.0,
+      "lt_wagered": 40.0,
       "lt_first_game_ts": 1792588126,
-      "lt_last_game_ts": 1792588126
+      "lt_last_game_ts": 1792905553
     },
     "91144900": {
       "first_name": "\ua731\u1d21\u039b\u0262\u0262\u028f\u2122",
@@ -167,7 +167,7 @@
   "user_levels": {},
   "user_wagering_totals": {
     "8598790977": 1760.75,
-    "8866172837": 15.0,
+    "8866172837": 85.0,
     "8815653561": 60.59919118,
     "8853165638": 29.04,
     "8619212375": 25.0,
@@ -418,6 +418,24 @@
         "bet": 15.0,
         "result": "loss",
         "winnings": 0,
+        "profit": -15.0
+      },
+      {
+        "timestamp": 1792905502,
+        "id": "02259",
+        "game": "blackjack",
+        "bet": 10.0,
+        "result": "win",
+        "winnings": 20.0,
+        "profit": 10.0
+      },
+      {
+        "timestamp": 1792905553,
+        "id": "53171",
+        "game": "coinflip",
+        "bet": 15.0,
+        "result": "loss",
+        "winnings": 0.0,
         "profit": -15.0
       }
     ],
@@ -693,6 +711,6 @@
   "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 5094.0
+    "USDT": 5124.0
   }
 }
