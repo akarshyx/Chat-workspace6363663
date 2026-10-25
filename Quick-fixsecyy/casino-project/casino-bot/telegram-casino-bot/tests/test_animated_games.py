@@ -118,7 +118,6 @@ class AnimatedGameReliabilityTests(unittest.TestCase):
         original_dealers = dict(main.dealer_bots)
         failing_dealer = _FakeDiceBot("dealer-1", error=RuntimeError("network error"))
         fallback_dealer = _FakeDiceBot("dealer-2")
-        main_bot = _FakeDiceBot("main")
         main.dealer_bots.clear()
         main.dealer_bots.update(
             {"dealer_1": failing_dealer, "dealer_2": fallback_dealer}
@@ -129,7 +128,7 @@ class AnimatedGameReliabilityTests(unittest.TestCase):
                 main.dealer_send_dice(
                     chat_id=123,
                     emoji="🎲",
-                    main_bot=main_bot,
+                    main_bot=None,
                     chat_type="group",
                     dealer_name="dealer_1",
                 )
@@ -145,6 +144,32 @@ class AnimatedGameReliabilityTests(unittest.TestCase):
             [],
             "a failed request must not be replayed through another bot",
         )
+
+    def test_group_dice_uses_main_bot_when_available_even_with_dealer_configured(self):
+        original_dealers = dict(main.dealer_bots)
+        dealer = _FakeDiceBot("dealer")
+        main.dealer_bots.update(
+            {"dealer_1": dealer, "dealer_2": None, "dealer_3": None}
+        )
+        main_bot = _FakeDiceBot("main")
+
+        try:
+            result = asyncio.run(
+                main.dealer_send_dice(
+                    chat_id=-100123,
+                    emoji="🎲",
+                    main_bot=main_bot,
+                    chat_type="supergroup",
+                    dealer_name="dealer_1",
+                )
+            )
+        finally:
+            main.dealer_bots.clear()
+            main.dealer_bots.update(original_dealers)
+
+        self.assertIsNotNone(result)
+        self.assertEqual(main_bot.calls, [(-100123, "🎲")])
+        self.assertEqual(dealer.calls, [])
 
     def test_missing_group_dealer_uses_main_bot(self):
         original_dealers = dict(main.dealer_bots)

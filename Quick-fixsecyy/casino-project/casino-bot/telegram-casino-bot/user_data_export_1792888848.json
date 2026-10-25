@@ -1,9 +1,9 @@
 {
-  "timestamp": 1792888280.3108258,
-  "export_date": "Sun Oct 25 00:31:20 2026",
+  "timestamp": 1792888848.8030171,
+  "export_date": "Sun Oct 25 00:40:48 2026",
   "total_users": 21,
   "user_balances": {
-    "8598790977": 511.98,
+    "8598790977": 506.98,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
@@ -111,6 +111,13 @@
       "joined_at": 1792888233.2963433,
       "username": "clearthetabs",
       "first_name": "\u2060",
+      "currency": "USD"
+    },
+    "8853165638": {
+      "first_name": "@xcxvxzxcxvxz",
+      "username": "",
+      "joined": 1792888636,
+      "joined_at": 1792888657.7753918,
       "currency": "USD"
     }
   },
@@ -421,9 +428,43 @@
   "user_raffle_tickets": {},
   "pending_deposits": {},
   "pending_withdrawals": {},
-  "active_games": {},
+  "active_games": {
+    "8853165638": {
+      "_created_at": 1792888824.8805764,
+      "type": "sports_dice_bot",
+      "game_name": "dice",
+      "username": "x",
+      "emoji": "\ud83c\udfb2",
+      "dice_emoji": "\ud83c\udfb2",
+      "bot_last_total": 0,
+      "wins_needed": 3,
+      "rolls": 3,
+      "bet_amount": 5.0,
+      "player_wins": 2,
+      "bot_wins": 0,
+      "round": 3,
+      "state": "waiting_bot_roll",
+      "player_round_rolls": 0,
+      "player_round_total": 0,
+      "bot_round_rolls": 0,
+      "bot_round_total": 0,
+      "chat_id": -1003904838875,
+      "chat_type": "supergroup",
+      "last_active": 1792888824.880587,
+      "created_at": 1792888824.880587,
+      "start_msg_id": 343,
+      "start_msg_chat_id": -1003904838875,
+      "is_crazy": false,
+      "bot_rolling_active": true,
+      "_roll_generation": 3,
+      "bot_has_rolled": false,
+      "auto_rolling_player": false,
+      "current_cashout": 4.33,
+      "last_roll_time": 0
+    }
+  },
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1603.8643110657138
+    "USDT": 1608.8643110657138
   }
 }

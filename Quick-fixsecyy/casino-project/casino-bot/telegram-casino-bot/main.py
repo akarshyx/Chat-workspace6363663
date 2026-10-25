@@ -23313,7 +23313,10 @@ async def _cancel_failed_bot_roll(
     try:
         await context.bot.send_message(
             chat_id=game_data.get("chat_id"),
-            text="⚠️ The bot could not send its dice roll. Your bet was returned; please start a new round.",
+            text=(
+                "⚠️ A bot dice roll could not be confirmed, so this round was cancelled. "
+                "Your full bet was returned; please start a new round."
+            ),
         )
     except Exception:
         logger.exception("[BOT_ROLL] Could not send recovery message for user=%s", user_id)
@@ -23693,45 +23696,46 @@ async def dealer_send_dice(chat_id: int, emoji: str = "🎲", main_bot=None, cha
                 logger.error(f"❌ Main bot roll error in private: {e}")
         return None
 
-    # In group chats, use the dealer bot (reuse existing instance — no new connections)
-    if not target_bot or str(target_bot.token) == str(main_bot.token if main_bot else ""):
-        # Dealer bots are optional. When one is not configured, use the main
-        # bot that is already handling the casino chat. Do not use this fallback
-        # after a dealer request fails: Telegram may have accepted that roll.
-        if not main_bot:
-            logger.error("❌ No dealer bot or main bot available for group dice")
-            return None
+    # In group chats, use the main casino bot's existing Telegram client. The
+    # independent dealer client has intermittently dropped reads during
+    # multi-roll rounds; a failed read may still mean Telegram accepted a roll,
+    # so never replay that uncertain request through a second bot.
+    if main_bot:
         try:
             result = await asyncio.wait_for(
                 main_bot.send_dice(chat_id=chat_id, emoji=emoji_str),
                 timeout=15.0,
             )
             if result:
-                logger.info(f"✅ Main bot sent fallback dice {emoji_str} to group {chat_id}")
+                logger.info(f"✅ Main bot sent group dice {emoji_str} to {chat_id}")
                 return result
             logger.error("❌ Main bot group dice send returned no message")
         except asyncio.TimeoutError:
-            logger.error("❌ Main bot dice animation timed out in group fallback")
+            logger.error("❌ Main bot dice animation timed out in group")
         except Exception as e:
-            logger.error(f"❌ Main bot group dice fallback error: {e}")
+            logger.error(f"❌ Main bot group dice error: {e}")
         return None
 
-    if target_bot:
-        try:
-            result = await asyncio.wait_for(
-                target_bot.send_dice(chat_id=chat_id, emoji=emoji_str),
-                timeout=15.0,
-            )
-            if result:
-                logger.info(f"✅ {dealer_name} sent dice {emoji_str} to group {chat_id}")
-                return result
-        except asyncio.TimeoutError:
-            logger.error(f"❌ {dealer_name} dice animation timed out in group")
+    # A dealer is retained for legacy callers that don't have the application
+    # bot available. Never retry it through another sender on an error.
+    if not target_bot:
+        logger.error("❌ No dealer bot or main bot available for group dice")
+        return None
+    try:
+        result = await asyncio.wait_for(
+            target_bot.send_dice(chat_id=chat_id, emoji=emoji_str),
+            timeout=15.0,
+        )
+        if result:
+            logger.info(f"✅ {dealer_name} sent dice {emoji_str} to group {chat_id}")
+            return result
+    except asyncio.TimeoutError:
+        logger.error(f"❌ {dealer_name} dice animation timed out in group")
+        return None
+    except Exception as e:
+        logger.error(f"❌ {dealer_name} dice error in group: {e}")
+        if "Flood control exceeded" in str(e):
             return None
-        except Exception as e:
-            logger.error(f"❌ {dealer_name} dice error in group: {e}")
-            if "Flood control exceeded" in str(e):
-                return None
     
     # Do not retry through another bot after a dealer exception. Telegram may
     # have accepted the request before the client observed the error; a
