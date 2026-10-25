@@ -1,13 +1,13 @@
 {
-  "timestamp": 1792888982.9061437,
-  "export_date": "Sun Oct 25 00:43:02 2026",
-  "total_users": 21,
+  "timestamp": 1792890417.6542425,
+  "export_date": "Sun Oct 25 01:06:57 2026",
+  "total_users": 22,
   "user_balances": {
-    "8598790977": 506.98,
+    "8598790977": 501.98,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
-    "8619212375": 0.0,
+    "8619212375": 185.63,
     "8750866470": 0.0,
     "8851859565": 0.0,
     "8670909576": 0.0,
@@ -22,8 +22,9 @@
     "8919753146": 0.0,
     "8843548831": 0.0,
     "1272891832": 134.0,
-    "8825103057": 0.0,
-    "8853165638": 8.6
+    "8825103057": 5.0,
+    "8853165638": 0.0,
+    "8781134004": 0.0
   },
   "user_profiles": {
     "8598790977": {
@@ -119,12 +120,20 @@
       "joined": 1792888636,
       "joined_at": 1792888657.7753918,
       "currency": "USD",
+      "lt_games": 2,
+      "lt_wins": 2,
+      "lt_won": 11.52,
+      "lt_wagered": 6.0,
+      "lt_first_game_ts": 1792888851,
+      "lt_last_game_ts": 1792888984
+    },
+    "8619212375": {
       "lt_games": 1,
       "lt_wins": 1,
-      "lt_won": 9.6,
-      "lt_wagered": 5.0,
-      "lt_first_game_ts": 1792888851,
-      "lt_last_game_ts": 1792888851
+      "lt_won": 48.0,
+      "lt_wagered": 25.0,
+      "lt_first_game_ts": 1792890184,
+      "lt_last_game_ts": 1792890184
     }
   },
   "user_levels": {},
@@ -132,7 +141,8 @@
     "8598790977": 370.0,
     "8866172837": 15.0,
     "8815653561": 41.59919118,
-    "8853165638": 5.0
+    "8853165638": 6.0,
+    "8619212375": 25.0
   },
   "user_match_history": {
     "8598790977": [
@@ -438,6 +448,26 @@
         "result": "win",
         "winnings": 9.6,
         "profit": 4.6
+      },
+      {
+        "timestamp": 1792888984,
+        "id": "84406",
+        "game": "dice",
+        "bet": 1.0,
+        "result": "win",
+        "winnings": 1.92,
+        "profit": 0.9199999999999999
+      }
+    ],
+    "8619212375": [
+      {
+        "timestamp": 1792890184,
+        "id": "84796",
+        "game": "dice",
+        "bet": 25.0,
+        "result": "win",
+        "winnings": 48.0,
+        "profit": 23.0
       }
     ]
   },
@@ -445,45 +475,22 @@
   "referral_earnings": {},
   "user_raffle_tickets": {},
   "pending_deposits": {},
-  "pending_withdrawals": {},
-  "active_games": {
-    "8853165638": {
-      "_created_at": 1792888888.4350991,
-      "type": "sports_dice_bot",
-      "game_name": "dice",
+  "pending_withdrawals": {
+    "npw_8853165638_1792889033": {
+      "user_id": "8853165638",
       "username": "x",
-      "emoji": "\ud83c\udfb2",
-      "dice_emoji": "\ud83c\udfb2",
-      "bot_last_total": 0,
-      "wins_needed": 2,
-      "rolls": 3,
-      "bet_amount": 1.0,
-      "player_wins": 1,
-      "bot_wins": 0,
-      "round": 2,
-      "state": "waiting_player_roll",
-      "player_round_rolls": 2,
-      "player_round_total": 4,
-      "bot_round_rolls": 3,
-      "bot_round_total": 7,
-      "chat_id": -1003904838875,
-      "chat_type": "supergroup",
-      "last_active": 1792888888.4351032,
-      "created_at": 1792888888.4351032,
-      "start_msg_id": 376,
-      "start_msg_chat_id": -1003904838875,
-      "is_crazy": false,
-      "player_roll_button_active": false,
-      "auto_rolling_player": false,
-      "_roll_generation": 5,
-      "bot_has_rolled": true,
-      "current_cashout": 0.75,
-      "bot_rolling_active": false,
-      "last_roll_time": 0
+      "telegram_username": "xcxvxzxcxvxz",
+      "amount_usd": 10.52,
+      "crypto": "ltc",
+      "display_name": "Litecoin (LTC)",
+      "wallet_address": "ltc1qq9crec0vmzhsgvaw54nr4pjd3e6dkzajqaqzy3",
+      "status": "pending",
+      "created_at": 1792889033.332837
     }
   },
+  "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1605.2643110657139
+    "USDT": 1606.3443110657138
   }
 }

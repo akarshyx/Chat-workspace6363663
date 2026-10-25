@@ -1,13 +1,13 @@
 {
-  "timestamp": 1792889012.9414523,
-  "export_date": "Sun Oct 25 00:43:32 2026",
+  "timestamp": 1792890266.5864398,
+  "export_date": "Sun Oct 25 01:04:26 2026",
   "total_users": 21,
   "user_balances": {
-    "8598790977": 506.98,
+    "8598790977": 501.98,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
-    "8619212375": 0.0,
+    "8619212375": 185.63,
     "8750866470": 0.0,
     "8851859565": 0.0,
     "8670909576": 0.0,
@@ -22,8 +22,8 @@
     "8919753146": 0.0,
     "8843548831": 0.0,
     "1272891832": 134.0,
-    "8825103057": 0.0,
-    "8853165638": 10.52
+    "8825103057": 5.0,
+    "8853165638": 0.0
   },
   "user_profiles": {
     "8598790977": {
@@ -125,6 +125,14 @@
       "lt_wagered": 6.0,
       "lt_first_game_ts": 1792888851,
       "lt_last_game_ts": 1792888984
+    },
+    "8619212375": {
+      "lt_games": 1,
+      "lt_wins": 1,
+      "lt_won": 48.0,
+      "lt_wagered": 25.0,
+      "lt_first_game_ts": 1792890184,
+      "lt_last_game_ts": 1792890184
     }
   },
   "user_levels": {},
@@ -132,7 +140,8 @@
     "8598790977": 370.0,
     "8866172837": 15.0,
     "8815653561": 41.59919118,
-    "8853165638": 6.0
+    "8853165638": 6.0,
+    "8619212375": 25.0
   },
   "user_match_history": {
     "8598790977": [
@@ -448,16 +457,39 @@
         "winnings": 1.92,
         "profit": 0.9199999999999999
       }
+    ],
+    "8619212375": [
+      {
+        "timestamp": 1792890184,
+        "id": "84796",
+        "game": "dice",
+        "bet": 25.0,
+        "result": "win",
+        "winnings": 48.0,
+        "profit": 23.0
+      }
     ]
   },
   "referral_data": {},
   "referral_earnings": {},
   "user_raffle_tickets": {},
   "pending_deposits": {},
-  "pending_withdrawals": {},
+  "pending_withdrawals": {
+    "npw_8853165638_1792889033": {
+      "user_id": "8853165638",
+      "username": "x",
+      "telegram_username": "xcxvxzxcxvxz",
+      "amount_usd": 10.52,
+      "crypto": "ltc",
+      "display_name": "Litecoin (LTC)",
+      "wallet_address": "ltc1qq9crec0vmzhsgvaw54nr4pjd3e6dkzajqaqzy3",
+      "status": "pending",
+      "created_at": 1792889033.332837
+    }
+  },
   "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1604.3443110657138
+    "USDT": 1606.3443110657138
   }
 }
