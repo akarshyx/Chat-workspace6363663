@@ -1,9 +1,9 @@
 {
-  "timestamp": 1792891477.386179,
-  "export_date": "Sun Oct 25 01:24:37 2026",
-  "total_users": 22,
+  "timestamp": 1792892982.0505378,
+  "export_date": "Sun Oct 25 01:49:42 2026",
+  "total_users": 24,
   "user_balances": {
-    "8598790977": 501.98,
+    "8598790977": 561.9,
     "8639404236": 1.60714287,
     "1196029909": 0.17857143,
     "8866172837": 197.38102324,
@@ -24,7 +24,9 @@
     "1272891832": 134.0,
     "8825103057": 5.0,
     "8853165638": 0.0,
-    "8781134004": 0.0
+    "8781134004": 0.0,
+    "7754629399": 0.0,
+    "8614105398": 0.0
   },
   "user_profiles": {
     "8598790977": {
@@ -32,12 +34,12 @@
       "username": "arshxy",
       "first_name": "#1",
       "currency": "USD",
-      "lt_games": 16,
-      "lt_wins": 1,
-      "lt_won": 96.0,
-      "lt_wagered": 370.0,
+      "lt_games": 19,
+      "lt_wins": 3,
+      "lt_won": 241.92000000000002,
+      "lt_wagered": 456.0,
       "lt_first_game_ts": 1788104270,
-      "lt_last_game_ts": 1792497101
+      "lt_last_game_ts": 1792892743
     },
     "8750866470": {
       "joined_at": 1792490944.2122183,
@@ -71,12 +73,12 @@
       "username": "",
       "first_name": "KING",
       "currency": "USD",
-      "lt_games": 15,
-      "lt_wins": 6,
-      "lt_won": 104.81,
-      "lt_wagered": 88.90919118,
+      "lt_games": 19,
+      "lt_wins": 9,
+      "lt_won": 150.81,
+      "lt_wagered": 108.90919118,
       "lt_first_game_ts": 1792626498,
-      "lt_last_game_ts": 1792848730
+      "lt_last_game_ts": 1792892275
     },
     "8788040313": {
       "joined_at": 1792649519.3792913,
@@ -134,13 +136,31 @@
       "lt_wagered": 25.0,
       "lt_first_game_ts": 1792890184,
       "lt_last_game_ts": 1792890184
+    },
+    "8781134004": {
+      "joined_at": 1792891880.2145648,
+      "username": "GotenksX",
+      "first_name": "GotenksX",
+      "currency": "USD"
+    },
+    "7754629399": {
+      "joined_at": 1792892429.9986887,
+      "username": "Antraxx_77",
+      "first_name": "\ud835\udc00\ud835\udc27\ud835\udc2d\ud835\udc2b\ud835\udc1a\ud835\udc31\ud835\udc31",
+      "currency": "USD"
+    },
+    "8614105398": {
+      "joined_at": 1792892452.7809408,
+      "username": "D1rickz",
+      "first_name": "D1",
+      "currency": "USD"
     }
   },
   "user_levels": {},
   "user_wagering_totals": {
-    "8598790977": 370.0,
+    "8598790977": 456.0,
     "8866172837": 15.0,
-    "8815653561": 41.59919118,
+    "8815653561": 60.59919118,
     "8853165638": 18.52,
     "8619212375": 25.0
   },
@@ -289,6 +309,33 @@
         "result": "loss",
         "winnings": 0,
         "profit": -40.0
+      },
+      {
+        "timestamp": 1792892647,
+        "id": "47134",
+        "game": "dice",
+        "bet": 36.0,
+        "result": "win",
+        "winnings": 69.12,
+        "profit": 33.120000000000005
+      },
+      {
+        "timestamp": 1792892727,
+        "id": "27435",
+        "game": "dice",
+        "bet": 40.0,
+        "result": "win",
+        "winnings": 76.8,
+        "profit": 36.8
+      },
+      {
+        "timestamp": 1792892743,
+        "id": "43952",
+        "game": "sixseven",
+        "bet": 10.0,
+        "result": "loss",
+        "winnings": 0,
+        "profit": -10.0
       }
     ],
     "8866172837": [
@@ -437,6 +484,42 @@
         "result": "win",
         "winnings": 70.5,
         "profit": 47.0
+      },
+      {
+        "timestamp": 1792892198,
+        "id": "98597",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "win",
+        "winnings": 2.0,
+        "profit": 1.0
+      },
+      {
+        "timestamp": 1792892235,
+        "id": "35663",
+        "game": "roulette",
+        "bet": 10.0,
+        "result": "win",
+        "winnings": 20.0,
+        "profit": 10.0
+      },
+      {
+        "timestamp": 1792892260,
+        "id": "60782",
+        "game": "roulette",
+        "bet": 1.0,
+        "result": "loss",
+        "winnings": 0.0,
+        "profit": -1.0
+      },
+      {
+        "timestamp": 1792892275,
+        "id": "75919",
+        "game": "roulette",
+        "bet": 8.0,
+        "result": "win",
+        "winnings": 24.0,
+        "profit": 16.0
       }
     ],
     "8853165638": [
@@ -513,22 +596,11 @@
       "wallet_address": "F4rPeQu9yiev3Ew8ratesVX2UJXEo9yV79vPZ4NmpVhC",
       "status": "pending",
       "created_at": 1792891383.3059223
-    },
-    "npw_8815653561_1792891473": {
-      "user_id": "8815653561",
-      "username": "KING",
-      "telegram_username": "None",
-      "amount_usd": 70.5,
-      "crypto": "ltc",
-      "display_name": "Litecoin (LTC)",
-      "wallet_address": "LUtc9tnLpmYLcCeswUM7zAcrWLcMpF7ovb",
-      "status": "pending",
-      "created_at": 1792891473.308014
     }
   },
   "active_games": {},
   "hilo_games": {},
   "crypto_house_balances": {
-    "USDT": 1618.8643110657138
+    "USDT": 1603.934311065714
   }
 }
